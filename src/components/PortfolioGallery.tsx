@@ -23,16 +23,18 @@ export function PortfolioGallery({ videos, photos }: PortfolioGalleryProps) {
               key={video.id}
               className="overflow-hidden rounded-2xl border border-border/70 bg-card shadow-sm"
             >
-              <video
-                src={video.src}
-                poster={video.poster ?? undefined}
-                controls
-                playsInline
-                preload="metadata"
-                className="aspect-[9/16] w-full bg-secondary object-cover sm:aspect-video"
-              >
-                <track kind="captions" />
-              </video>
+              <div className="bg-secondary">
+                <video
+                  src={video.src}
+                  poster={video.poster ?? undefined}
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="mx-auto aspect-[9/16] w-full object-contain"
+                >
+                  <track kind="captions" />
+                </video>
+              </div>
               <p className="px-4 py-3 text-sm font-medium text-foreground">
                 {video.title}
               </p>
