@@ -88,7 +88,7 @@ export default function BraieKdownsPage() {
           <SectionHeading
             eyebrow="Braie-kdowns"
             title="Your routine, through Braie's eyes"
-            description={`Personalized video analysis from a judge and former NCAA All-American. ${siteConfig.routineBreakdownPrice}. Reviews sent every Monday.`}
+            description={`Personalized video analysis from a judge and former NCAA All-American. Reviews sent every Monday.`}
             className="mx-auto text-center"
             align="center"
           />
