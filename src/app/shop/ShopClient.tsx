@@ -25,12 +25,12 @@ export default function ShopClient() {
 
   return (
     <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-      <SectionHeading
-        eyebrow="Shop"
-        title="Curated gymnastics favorites"
-        description="Affiliate picks for gear, meet-day essentials, training tools, and Braie's published books on Amazon."
-        className="mb-8"
-      />
+        <SectionHeading
+          eyebrow="Shop"
+          title="Curated gymnastics favorites"
+          description="Judging critique PDFs, event packages, and Braie's Amazon books — synced from her Stan store."
+          className="mb-8"
+        />
 
       <Tabs
         value={category}
@@ -56,8 +56,16 @@ export default function ShopClient() {
       </div>
 
       <p className="mt-10 text-center text-sm text-muted-foreground">
-        Some links are affiliate links and may earn a commission at no extra cost
-        to you.
+        Digital products open on{" "}
+        <a
+          href="https://stan.store/JudgeBraie"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary underline-offset-2 hover:underline"
+        >
+          stan.store/JudgeBraie
+        </a>
+        . Amazon links may earn a commission at no extra cost to you.
       </p>
     </section>
   );

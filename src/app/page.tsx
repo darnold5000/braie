@@ -80,7 +80,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Shop"
             title="Braie's favorites"
-            description="Books, gear, and meet-day essentials I recommend."
+            description="Judging critique PDFs, event packages, and books from her Stan store and Amazon."
           />
           <Button asChild variant="ghost" className="rounded-full shrink-0">
             <Link href="/shop">Browse the shop</Link>

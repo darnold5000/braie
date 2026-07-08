@@ -29,7 +29,7 @@ export const resources: Resource[] = [
     ctaLabel: "View on Amazon",
     href: "https://www.amazon.com/My-Gymnastics-Competition-Journal-gymnasts/dp/B09JJGTPMT",
     imageUrl:
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop",
+      "https://m.media-amazon.com/images/P/B09JJGTPMT.01._SL500_.jpg",
   },
   {
     id: "training-journal",
@@ -41,7 +41,7 @@ export const resources: Resource[] = [
     ctaLabel: "View on Amazon",
     href: "https://www.amazon.com/Gymnastics-Training-Journal-Practice-Setting/dp/B09RJTJQH9",
     imageUrl:
-      "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&h=400&fit=crop",
+      "https://m.media-amazon.com/images/P/B09RJTJQH9.01._SL500_.jpg",
   },
   {
     id: "level-tips",
@@ -71,7 +71,7 @@ export const resources: Resource[] = [
     ctaLabel: "View on Amazon",
     href: "https://www.amazon.com/can-will-Childrens-Confidence-Sports/dp/B09GZ98YC1",
     imageUrl:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+      "https://m.media-amazon.com/images/P/B09GZ98YC1.01._SL500_.jpg",
   },
   {
     id: "become-a-judge",

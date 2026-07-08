@@ -24,13 +24,20 @@ export function ProductCard({ product }: ProductCardProps) {
         <img
           src={product.imageUrl}
           alt={product.title}
-          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          className="h-full w-full object-contain p-2 transition-transform duration-300 group-hover:scale-105"
         />
       </div>
       <CardHeader className="pb-2">
-        <Badge variant="outline" className="mb-2 w-fit">
-          {productCategoryLabels[product.category]}
-        </Badge>
+        <div className="mb-2 flex items-center gap-2">
+          <Badge variant="outline" className="w-fit">
+            {productCategoryLabels[product.category]}
+          </Badge>
+          {product.price && (
+            <Badge variant="secondary" className="w-fit">
+              {product.price}
+            </Badge>
+          )}
+        </div>
         <CardTitle className="text-lg leading-snug">{product.title}</CardTitle>
         <CardDescription className="line-clamp-2">
           {product.description}
@@ -43,7 +50,7 @@ export function ProductCard({ product }: ProductCardProps) {
             target="_blank"
             rel="noopener noreferrer sponsored"
           >
-            View Product
+            {product.affiliateUrl.includes("stan.store") ? "Buy on Stan" : "View on Amazon"}
             <ExternalLink className="ml-2 h-4 w-4" />
           </a>
         </Button>

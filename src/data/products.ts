@@ -1,139 +1,491 @@
 import type { Product, ProductCategory } from "@/types";
 
 export const productCategoryLabels: Record<ProductCategory, string> = {
-  "gymnastics-gear": "Gymnastics Gear",
-  "meet-day-essentials": "Meet Day Essentials",
-  "training-tools": "Training Tools",
-  "bags-accessories": "Bags & Accessories",
-  "judge-favorites": "Judge Favorites",
+  "judging-critiques": "Judging Critiques",
+  "event-packages": "Event Packages",
+  guides: "Guides & PDFs",
   "amazon-favorites": "Amazon Favorites",
 };
 
 export const products: Product[] = [
   {
-    id: "competition-journal",
-    title: "My Gymnastics Competition Journal",
-    description:
-      "Meet logs, placing trackers, and goal-setting pages designed by Braie for gymnasts who want to stay organized all season.",
-    category: "amazon-favorites",
-    imageUrl:
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=600&fit=crop",
-    affiliateUrl:
-      "https://www.amazon.com/My-Gymnastics-Competition-Journal-gymnasts/dp/B09JJGTPMT",
-    featured: true,
+    "id": "all-level-2-events-package",
+    "title": "All Level 2 Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/dyjf4/alleventslevel2.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-level-2-events-package",
+    "price": "$75",
+    "featured": false
   },
   {
-    id: "training-journal",
-    title: "My Gymnastics Training Journal",
-    description:
-      "Practice logs and goal-setting workbook to help gymnasts track progress and stay motivated between meets.",
-    category: "amazon-favorites",
-    imageUrl:
-      "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&h=600&fit=crop",
-    affiliateUrl:
-      "https://www.amazon.com/Gymnastics-Training-Journal-Practice-Setting/dp/B09RJTJQH9",
-    featured: true,
+    "id": "all-level-3-events-package",
+    "title": "All Level 3 Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/vg27w/alleventslevel3.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-level-3-events-package",
+    "price": "$75",
+    "featured": true
   },
   {
-    id: "i-can-i-will",
-    title: "I Can, I Will — Children's Confidence Book",
-    description:
-      "An inspiring children's book about confidence in sports, written by Braie to encourage young athletes.",
-    category: "amazon-favorites",
-    imageUrl:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop",
-    affiliateUrl:
-      "https://www.amazon.com/can-will-Childrens-Confidence-Sports/dp/B09GZ98YC1",
-    featured: true,
+    "id": "all-level-4-events-package",
+    "title": "All Level 4 Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/9ntsp/alleventslevel4.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-level-4-events-package",
+    "price": "$75",
+    "featured": false
   },
   {
-    id: "grip-bag",
-    title: "Grip Bag & Wrist Care Kit",
-    description:
-      "Keep grips, tape, and pre-wrap organized in a compact bag — a meet-day must-have.",
-    category: "meet-day-essentials",
-    imageUrl:
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=gymnastics+grip+bag",
+    "id": "all-level-5-events-package",
+    "title": "All Level 5 Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ny459/alleventslevel5.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-level-5-events-package",
+    "price": "$75",
+    "featured": false
   },
   {
-    id: "water-bottle",
-    title: "Insulated Gym Bottle",
-    description:
-      "Stay hydrated through long practice sessions and all-day meets with a leak-proof insulated bottle.",
-    category: "meet-day-essentials",
-    imageUrl:
-      "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=insulated+water+bottle+gym",
+    "id": "all-xcel-bronze-events-package",
+    "title": "All Xcel Bronze Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/8t1y7/allbronzeevents.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-bronze-events-package",
+    "price": "$75",
+    "featured": false
   },
   {
-    id: "resistance-bands",
-    title: "Resistance Band Set",
-    description:
-      "Essential for conditioning, flexibility, and at-home strength work between gym days.",
-    category: "training-tools",
-    imageUrl:
-      "https://images.unsplash.com/photo-1598289431512-b97afb0531dd?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=resistance+bands+set",
+    "id": "all-xcel-diamond-events-package",
+    "title": "All Xcel Diamond Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/6uzxn/alldiamondevents.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-diamond-events-package",
+    "price": "$75",
+    "featured": false
   },
   {
-    id: "foam-roller",
-    title: "Foam Roller",
-    description:
-      "Recovery tool for sore muscles after hard training — a coach and judge favorite for athlete self-care.",
-    category: "training-tools",
-    imageUrl:
-      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=foam+roller",
+    "id": "all-xcel-gold-events-package",
+    "title": "All Xcel Gold Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/y1lnv/allgoldevents.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-gold-events-package",
+    "price": "$75",
+    "featured": false
   },
   {
-    id: "leotard",
-    title: "Competition Leotard",
-    description:
-      "Classic, comfortable leotard styles that hold up through routines and meet-day nerves.",
-    category: "gymnastics-gear",
-    imageUrl:
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=girls+gymnastics+leotard",
+    "id": "all-xcel-platinum-events-package",
+    "title": "All Xcel Platinum Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/hxpmf/allplatinumevents.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-platinum-events-package",
+    "price": "$75",
+    "featured": false
   },
   {
-    id: "gym-bag",
-    title: "Multi-Compartment Gym Bag",
-    description:
-      "Room for leos, shoes, snacks, and meet essentials — built for long competition days.",
-    category: "bags-accessories",
-    imageUrl:
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=gymnastics+gym+bag",
+    "id": "all-xcel-silver-events-package",
+    "title": "All Xcel Silver Events Package",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "event-packages",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/lwohc/allsilverevents.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-silver-events-package",
+    "price": "$75",
+    "featured": false
   },
   {
-    id: "clipboard",
-    title: "Judge Clipboard & Pen Set",
-    description:
-      "A sturdy clipboard for score sheets and notes — perfect for aspiring judges and coaches.",
-    category: "judge-favorites",
-    imageUrl:
-      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=coaching+clipboard",
+    "id": "level-2-bars-judging-critique-20212029",
+    "title": "Level 2 Bars Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/4f6gu/level2bars.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-2-bars-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
   },
   {
-    id: "hair-kit",
-    title: "Meet Day Hair Kit",
-    description:
-      "Bun makers, gel, and bobby pins to keep competition hair secure through every routine.",
-    category: "meet-day-essentials",
-    imageUrl:
-      "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=gymnastics+bun+maker",
+    "id": "level-2-beam-judging-critique-20212029",
+    "title": "Level 2 Beam Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/5tapu/level2beam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-2-beam-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
   },
   {
-    id: "chalk",
-    title: "Gym Chalk & Hand Care",
-    description:
-      "Better grip for bars and a little extra confidence on release moves.",
-    category: "gymnastics-gear",
-    imageUrl:
-      "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&h=600&fit=crop",
-    affiliateUrl: "https://www.amazon.com/s?k=gymnastics+chalk",
+    "id": "level-2-floor-judging-critique-20212029",
+    "title": "Level 2 Floor Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/olb8a/level2floor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-2-floor-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
   },
+  {
+    "id": "level-2-vault-judging-critique-20212029",
+    "title": "Level 2 Vault Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/afdzq/level2vault.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-2-vault-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-3-bars-judging-critique-20212029",
+    "title": "Level 3 Bars Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/nxjls/level3bars.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-3-bars-judging-critique-20212029",
+    "price": "$25",
+    "featured": true
+  },
+  {
+    "id": "level-3-beam-judging-critique-20212029",
+    "title": "Level 3 Beam Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/tsjdk/level3beam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-3-beam-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-3-floor-judging-critique-20212029",
+    "title": "Level 3 Floor Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/r4jvc/level3floor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-3-floor-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-3-vault-judging-critique-20212029",
+    "title": "Level 3 Vault Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/fcrps/level3vault.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-3-vault-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-4--5-vault-judging-critique-20212029",
+    "title": "Level 4 & 5 Vault Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/iqmhu/level45vault.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-4--5-vault-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-4-bars-judging-critique-20212029",
+    "title": "Level 4 Bars Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/9dfp3/level4bars.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-4-bars-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-4-beam-judging-critique-20212029",
+    "title": "Level 4 Beam Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/dsbt1/level4beam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-4-beam-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-4-floor-judging-critique-20212029",
+    "title": "Level 4 Floor Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/plbeu/level4floor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-4-floor-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-5-bars-judging-critique-20212029",
+    "title": "Level 5 Bars Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/5gltw/level5bars.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-5-bars-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-5-beam-judging-critique-20212029",
+    "title": "Level 5 Beam Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ndr82/level5beam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-5-beam-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "level-5-floor-judging-critique-20212029",
+    "title": "Level 5 Floor Judging Critique 2021-2029",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/3ou6q/level5floor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-5-floor-judging-critique-20212029",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "the-compete-cheat-sheet-pdf",
+    "title": "The Compete Cheat Sheet PDF",
+    "description": "Helpful PDF guide for gymnasts, coaches, and parents.",
+    "category": "guides",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/q6p1g/competecheatsheet.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/the-compete-cheat-sheet-pdf",
+    "price": "$5",
+    "featured": true
+  },
+  {
+    "id": "xcel-bronze-bars-judging-critique-present2028",
+    "title": "Xcel Bronze Bars Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/18uxf/xcelbronzebarsstanthumbnail.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-bronze-bars-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-bronze-beam-judging-critique-present2028",
+    "title": "Xcel Bronze Beam Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/sz7mk/bronzebeam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-bronze-beam-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-bronze-floor-judging-critique-present2028",
+    "title": "Xcel Bronze Floor Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/wdgfz/bronzefloor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-bronze-floor-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-bronze-vault-judging-critique-present2028",
+    "title": "Xcel Bronze Vault Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/45tr6/xcelbronzevaultthumbnail.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-bronze-vault-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-diamond-bars-judging-critique-present2028",
+    "title": "Xcel Diamond Bars Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/goic4/diamondbars.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-diamond-bars-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-diamond-beam-judging-critique-present2028",
+    "title": "Xcel Diamond Beam Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/dypnx/diamondbeam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-diamond-beam-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-diamond-floor-judging-critique-present2028",
+    "title": "Xcel Diamond Floor Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/fpxwt/diamondfloor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-diamond-floor-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-diamond-vault-judging-critique-present2028",
+    "title": "Xcel Diamond Vault Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/gse7t/diamondvault.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-diamond-vault-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-gold-bars-judging-critique-present2028",
+    "title": "Xcel Gold Bars Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/381da/goldbars.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-gold-bars-judging-critique-present2028",
+    "price": "$25",
+    "featured": true
+  },
+  {
+    "id": "xcel-gold-beam-judging-critique-present2028",
+    "title": "Xcel Gold Beam Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/8nt6i/goldbeam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-gold-beam-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-gold-floor-judging-critique-present2028",
+    "title": "Xcel Gold Floor Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/y1gte/goldfloor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-gold-floor-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-gold-vault-judging-critique-present2028",
+    "title": "Xcel Gold Vault Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/1buin/goldvault.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-gold-vault-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-platinum-bars-judging-critique-present2028",
+    "title": "Xcel Platinum Bars Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/itb1w/platinumbars.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-platinum-bars-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-platinum-beam-judging-critique-present2028",
+    "title": "Xcel Platinum Beam Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ovxtb/platinumbeam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-platinum-beam-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-platinum-floor-judging-critique-present2028",
+    "title": "Xcel Platinum Floor Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/eok7m/platinumfloor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-platinum-floor-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-platinum-vault-judging-critique-present2028",
+    "title": "Xcel Platinum Vault Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/43crq/platinumvault.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-platinum-vault-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-silver-bars-judging-critique-present2028",
+    "title": "Xcel Silver Bars Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/6hjfa/xcelsilverbarsstanthumbnail.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-silver-bars-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-silver-beam-judging-critique-present2028",
+    "title": "Xcel Silver Beam Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/9xdgm/silverbeam.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-silver-beam-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-silver-floor-judging-critique-present2028",
+    "title": "Xcel Silver Floor Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/cixr7/silverfloor.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-silver-floor-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "xcel-silver-vault-judging-critique-present2028",
+    "title": "Xcel Silver Vault Judging Critique Present-2028",
+    "description": "PDF judging breakdown delivered to your inbox.",
+    "category": "judging-critiques",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/5hxs1/xcelsilvervaultstanthumbnail.png",
+    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-silver-vault-judging-critique-present2028",
+    "price": "$25",
+    "featured": false
+  },
+  {
+    "id": "competition-journal",
+    "title": "My Gymnastics Competition Journal",
+    "description": "Meet logs, placing trackers, and goal-setting pages by Braie.",
+    "category": "amazon-favorites",
+    "imageUrl": "https://m.media-amazon.com/images/P/B09JJGTPMT.01._SL500_.jpg",
+    "affiliateUrl": "https://www.amazon.com/My-Gymnastics-Competition-Journal-gymnasts/dp/B09JJGTPMT",
+    "price": "See Amazon",
+    "featured": true
+  },
+  {
+    "id": "training-journal",
+    "title": "My Gymnastics Training Journal",
+    "description": "Practice logs and goal-setting workbook for gymnasts.",
+    "category": "amazon-favorites",
+    "imageUrl": "https://m.media-amazon.com/images/P/B09RJTJQH9.01._SL500_.jpg",
+    "affiliateUrl": "https://www.amazon.com/Gymnastics-Training-Journal-Practice-Setting/dp/B09RJTJQH9",
+    "price": "See Amazon",
+    "featured": true
+  },
+  {
+    "id": "i-can-i-will",
+    "title": "I Can, I Will \u2014 Children's Confidence Book",
+    "description": "Braie's children's book on confidence in sports.",
+    "category": "amazon-favorites",
+    "imageUrl": "https://m.media-amazon.com/images/P/B09GZ98YC1.01._SL500_.jpg",
+    "affiliateUrl": "https://www.amazon.com/can-will-Childrens-Confidence-Sports/dp/B09GZ98YC1",
+    "price": "See Amazon",
+    "featured": true
+  }
 ];

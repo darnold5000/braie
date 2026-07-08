@@ -12,11 +12,9 @@ export type Service = {
 };
 
 export type ProductCategory =
-  | "gymnastics-gear"
-  | "meet-day-essentials"
-  | "training-tools"
-  | "bags-accessories"
-  | "judge-favorites"
+  | "judging-critiques"
+  | "event-packages"
+  | "guides"
   | "amazon-favorites";
 
 export type Product = {
@@ -26,6 +24,7 @@ export type Product = {
   category: ProductCategory;
   imageUrl: string;
   affiliateUrl: string;
+  price?: string;
   featured?: boolean;
 };
 
