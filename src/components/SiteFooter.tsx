@@ -10,6 +10,7 @@ const footerNav = [
   { href: "/resources", label: "Resources" },
   { href: "/shop", label: "Shop" },
   { href: "/videos", label: "Videos" },
+  { href: "/brands", label: "For Brands" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];

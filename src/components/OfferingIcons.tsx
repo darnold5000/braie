@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen, ClipboardList, MessageCircle } from "lucide-react";
+import { ArrowRight, BookOpen, Camera, ClipboardList } from "lucide-react";
 import { homepageOfferings } from "@/data/site";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const iconMap = {
   clipboard: ClipboardList,
   book: BookOpen,
-  message: MessageCircle,
+  camera: Camera,
 };
 
 export function OfferingIcons() {

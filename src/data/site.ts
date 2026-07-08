@@ -2,9 +2,9 @@ export const siteConfig = {
   name: "Braie",
   fullName: "Braie Speed Swann",
   tagline:
-    "Judge, creator, and educator helping the gymnastics community understand scoring.",
+    "Judge, creator, and educator — helping the gymnastics community understand scoring and helping brands create content that converts.",
   description:
-    "Former NCAA All-American gymnast and USAG judge. Decode scoring, get routine reviews, and learn gymnastics the way judges see it.",
+    "Former NCAA All-American gymnast, USAG judge, and UGC creator. Routine reviews, judging education, and brand content for lifestyle, fitness, and sports.",
   url: "https://braie.com",
   email: "braieswann@gmail.com",
   videoReviewEmail: "coachjudgebraievideoreview@gmail.com",
@@ -76,9 +76,9 @@ export const homepageOfferings = [
     href: "/resources",
   },
   {
-    icon: "message",
-    title: "Work With Me",
-    description: "Q&A sessions, collaborations, and judging consultations.",
-    href: "/contact",
+    icon: "camera",
+    title: "For Brands",
+    description: "UGC videos, photos, and social content for your campaigns.",
+    href: "/brands",
   },
 ];

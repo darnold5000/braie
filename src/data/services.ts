@@ -90,8 +90,8 @@ export const services: Service[] = [
       "Partner with Braie for UGC content, social campaigns, and brand storytelling. 4+ years creating lifestyle, parenting, fitness, beauty, and sports content for major brands.",
     audience: "Brands and marketing teams",
     turnaround: "Response within 3–5 business days",
-    ctaLabel: "Inquire About Collabs",
-    ctaHref: "/contact?type=brand-partnership",
+    ctaLabel: "View For Brands",
+    ctaHref: "/brands",
     processSteps: [
       {
         title: "Send an inquiry",
