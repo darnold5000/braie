@@ -85,6 +85,25 @@ export function SiteFooter() {
           </p>
         </div>
       </div>
+
+      <div className="border-t border-border/60 bg-background/60">
+        <div className="mx-auto max-w-6xl px-4 py-5 text-center sm:px-6">
+          <p className="text-sm text-muted-foreground">
+            Built &amp; powered by{" "}
+            <a
+              href="https://hiresignalworks.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-foreground transition-colors hover:text-primary"
+            >
+              Signal Works
+            </a>
+          </p>
+          <p className="mt-1.5 text-xs text-muted-foreground/80">
+            Website • Hosting • Security • SEO • Analytics • Ongoing Improvements
+          </p>
+        </div>
+      </div>
     </footer>
   );
 }
