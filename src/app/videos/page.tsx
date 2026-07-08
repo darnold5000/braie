@@ -39,10 +39,10 @@ export default function VideosPage() {
         <CTASection
           title="Want feedback on your own routine?"
           description="Get a personalized video breakdown from a judge's perspective."
-          primaryLabel="Get a Routine Review"
-          primaryHref="/routine-breakdowns"
-          secondaryLabel="Browse Resources"
-          secondaryHref="/resources"
+          primaryLabel="Get a Braie-kdown"
+          primaryHref="/braie-kdowns"
+          secondaryLabel="Explore Learn"
+          secondaryHref="/learn"
         />
       </div>
     </>

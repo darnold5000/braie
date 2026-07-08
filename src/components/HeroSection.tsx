@@ -18,19 +18,19 @@ export function HeroSection() {
             Understand Gymnastics Like a Judge
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            Former NCAA All-American gymnast, gymnastics judge, and creator
-            helping athletes, parents, and coaches decode scoring and improve
-            performance.
+            I&apos;m Braie — former NCAA All-American, USAG judge, and creator behind
+            the Braie-kdown series. I help athletes, parents, and coaches decode
+            scoring and improve performance.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="rounded-full">
-              <Link href="/routine-breakdowns">
-                Get a Routine Review
+              <Link href="/learn">
+                Start Learning
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full">
-              <Link href="/videos">Watch Braie-kdowns</Link>
+              <Link href="/braie-kdowns">Get a Braie-kdown</Link>
             </Button>
           </div>
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -60,7 +60,7 @@ export function HeroSection() {
           </div>
           <div className="absolute -bottom-4 -left-4 rounded-2xl bg-card p-4 shadow-lg ring-1 ring-border/50 sm:-left-6">
             <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-              Routine Reviews
+              Braie-kdowns
             </p>
             <p className="mt-1 text-lg font-semibold text-foreground">
               {siteConfig.routineBreakdownPrice}

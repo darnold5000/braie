@@ -17,7 +17,8 @@ export type ProductCategory =
   | "judging-critiques"
   | "event-packages"
   | "guides"
-  | "amazon-favorites";
+  | "amazon-favorites"
+  | "affiliate-favorites";
 
 export type Product = {
   id: string;

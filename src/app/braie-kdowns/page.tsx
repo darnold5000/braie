@@ -18,10 +18,10 @@ import {
 } from "lucide-react";
 
 export const metadata = createPageMetadata({
-  title: "Routine Reviews",
+  title: "Braie-kdowns",
   description:
-    "Get a personalized gymnastics routine review from a USAG judge. Detailed video analysis covering start value, execution, composition, artistry, and deductions.",
-  path: "/routine-breakdowns",
+    "Get a personalized Braie-kdown from USAG judge Braie Speed Swann. Detailed video analysis covering start value, execution, composition, artistry, and deductions.",
+  path: "/braie-kdowns",
 });
 
 const feedbackCategories = [
@@ -80,15 +80,15 @@ const faqs = [
   },
 ];
 
-export default function RoutineBreakdownsPage() {
+export default function BraieKdownsPage() {
   return (
     <>
       <section className="bg-secondary/30 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <SectionHeading
-            eyebrow="Routine Reviews"
-            title="Your routine, through a judge's eyes"
-            description={`Detailed video analysis from Braie — ${siteConfig.routineBreakdownPrice}. Reviews sent every Monday.`}
+            eyebrow="Braie-kdowns"
+            title="Your routine, through Braie's eyes"
+            description={`Personalized video analysis from a judge and former NCAA All-American. ${siteConfig.routineBreakdownPrice}. Reviews sent every Monday.`}
             className="mx-auto text-center"
             align="center"
           />
@@ -97,8 +97,9 @@ export default function RoutineBreakdownsPage() {
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <SectionHeading
-          eyebrow="What you get"
-          title="Comprehensive Braie-kdown feedback"
+          eyebrow="Why Braie-kdowns"
+          title="Judge-level feedback you can actually use"
+          description="This isn't a generic comment — it's the same lens Braie uses in her educational content, applied to your athlete's routine."
           className="mb-8"
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -145,9 +146,9 @@ export default function RoutineBreakdownsPage() {
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
             <SectionHeading
-              eyebrow="Request form"
+              eyebrow="Pricing"
               title="Submit your routine"
-              description="Fill out the form and include a shareable video link. You can also email videos to the address below."
+              description={`${siteConfig.routineBreakdownPrice} per event. Fill out the form and include a shareable video link — or email your video directly.`}
             />
             <div className="mt-6 rounded-2xl bg-accent/50 p-5">
               <div className="flex items-start gap-3">

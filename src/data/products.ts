@@ -5,6 +5,7 @@ export const productCategoryLabels: Record<ProductCategory, string> = {
   "event-packages": "My Event Packages",
   guides: "My PDF Library",
   "amazon-favorites": "My Published Books",
+  "affiliate-favorites": "My Affiliate Picks",
 };
 
 export const products: Product[] = [
@@ -486,6 +487,42 @@ export const products: Product[] = [
     "imageUrl": "https://m.media-amazon.com/images/P/B09GZ98YC1.01._SL500_.jpg",
     "affiliateUrl": "https://www.amazon.com/can-will-Childrens-Confidence-Sports/dp/B09GZ98YC1",
     "price": "See Amazon",
+    "featured": true
+  },
+  {
+    "id": "revo-sculptor",
+    "title": "Revo Sculptor",
+    "description": "Body sculpting device — one of Braie's affiliate favorites.",
+    "category": "affiliate-favorites",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ws1gp/product1781808924185.jpeg",
+    "affiliateUrl": "https://lvnta.com/lv_sreDf4VZYWqq4FSS58",
+    "featured": true
+  },
+  {
+    "id": "revo-oil",
+    "title": "Revo Oil",
+    "description": "Wellness oil from Revo — visit Braie's affiliate link.",
+    "category": "affiliate-favorites",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/i2jxd/product1781809064794.jpeg",
+    "affiliateUrl": "https://lvnta.com/lv_LBARAJXuXd5U3VgcyV",
+    "featured": true
+  },
+  {
+    "id": "revo-cupping",
+    "title": "Revo Cupping",
+    "description": "REVO 4-in-1 Smart Cupping — visit Braie's affiliate link.",
+    "category": "affiliate-favorites",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/p56hb/product1781809125150.jpeg",
+    "affiliateUrl": "https://lvnta.com/lv_IhNaKhdbqirhabl9DL",
+    "featured": true
+  },
+  {
+    "id": "revo-face-wand",
+    "title": "Revo Face Wand",
+    "description": "Skincare face wand from Revo — visit Braie's affiliate link.",
+    "category": "affiliate-favorites",
+    "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ua4b1/product1781809321082.jpeg",
+    "affiliateUrl": "https://lvnta.com/lv_pDT5ZXstHNpN28M0kK",
     "featured": true
   }
 ];

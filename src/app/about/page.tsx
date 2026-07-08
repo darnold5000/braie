@@ -96,8 +96,8 @@ export default function AboutPage() {
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Button asChild className="rounded-full">
-              <Link href="/routine-breakdowns">
-                Book a Breakdown
+              <Link href="/braie-kdowns">
+                Get a Braie-kdown
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

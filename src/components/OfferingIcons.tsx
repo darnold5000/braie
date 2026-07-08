@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen, Camera, ClipboardList } from "lucide-react";
+import { ArrowRight, BookOpen, ClipboardList, Play } from "lucide-react";
 import { homepageOfferings } from "@/data/site";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
@@ -7,16 +7,16 @@ import { Button } from "@/components/ui/button";
 const iconMap = {
   clipboard: ClipboardList,
   book: BookOpen,
-  camera: Camera,
+  video: Play,
 };
 
 export function OfferingIcons() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
       <SectionHeading
-        eyebrow="Work With Braie"
-        title="Judging education, routine reviews, and more"
-        description="The main ways athletes, parents, coaches, and brands connect with Braie."
+        eyebrow="With Braie"
+        title="Learn, watch, and get feedback"
+        description="Everything Braie offers — built around gymnastics education and her signature Braie-kdown style."
         className="mb-10"
       />
       <div className="grid gap-6 md:grid-cols-3">
@@ -36,7 +36,7 @@ export function OfferingIcons() {
               </p>
               <Button asChild variant="ghost" className="mt-5 rounded-full">
                 <Link href={item.href}>
-                  Learn More
+                  Explore
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>

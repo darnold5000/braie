@@ -27,7 +27,7 @@ export const services: Service[] = [
     price: siteConfig.routineBreakdownPrice,
     showPrice: true,
     ctaLabel: "Request a Breakdown",
-    ctaHref: "/routine-breakdowns",
+    ctaHref: "/braie-kdowns",
     featured: true,
     mostPopular: true,
     processSteps: routineProcessSteps,
@@ -69,7 +69,7 @@ export const services: Service[] = [
     price: siteConfig.routineBreakdownPrice,
     showPrice: true,
     ctaLabel: "Get Meet Prep Help",
-    ctaHref: "/routine-breakdowns",
+    ctaHref: "/braie-kdowns",
     processSteps: routineProcessSteps,
   },
   {
@@ -80,7 +80,7 @@ export const services: Service[] = [
     audience: "Coaches and choreographers",
     turnaround: "7–14 business days",
     ctaLabel: "Request Feedback",
-    ctaHref: "/routine-breakdowns",
+    ctaHref: "/braie-kdowns",
     processSteps: routineProcessSteps,
   },
   {
@@ -90,7 +90,7 @@ export const services: Service[] = [
       "Partner with Braie for UGC content, social campaigns, and brand storytelling. 4+ years creating lifestyle, parenting, fitness, beauty, and sports content for major brands.",
     audience: "Brands and marketing teams",
     turnaround: "Response within 3–5 business days",
-    ctaLabel: "View For Brands",
+    ctaLabel: "View Brands",
     ctaHref: "/brands",
     processSteps: [
       {

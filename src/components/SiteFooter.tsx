@@ -1,19 +1,12 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { mainNavItems } from "@/data/navigation";
 import { siteConfig } from "@/data/site";
 import { socialLinks } from "@/data/socialLinks";
 import { SocialLinks } from "@/components/SocialLinks";
 import { Separator } from "@/components/ui/separator";
 
-const footerNav = [
-  { href: "/routine-breakdowns", label: "Routine Reviews" },
-  { href: "/resources", label: "Resources" },
-  { href: "/shop", label: "Shop" },
-  { href: "/videos", label: "Videos" },
-  { href: "/brands", label: "For Brands" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
-];
+const footerNav = mainNavItems.filter((item) => item.href !== "/");
 
 export function SiteFooter() {
   return (
@@ -73,7 +66,7 @@ export function SiteFooter() {
                   Book on Smeeple
                 </a>
               </li>
-              <li>Routine reviews: {siteConfig.routineBreakdownPrice}</li>
+              <li>Braie-kdowns: {siteConfig.routineBreakdownPrice}</li>
             </ul>
           </div>
         </div>

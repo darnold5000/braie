@@ -16,6 +16,12 @@ type ProductCardProps = {
   product: Product;
 };
 
+function affiliateCtaLabel(url: string) {
+  if (url.includes("stan.store")) return "Buy on Stan";
+  if (url.includes("amazon.com")) return "View on Amazon";
+  return "Visit Affiliate Link";
+}
+
 export function ProductCard({ product }: ProductCardProps) {
   return (
     <Card className="group flex h-full flex-col overflow-hidden rounded-2xl border-border/70 shadow-sm transition-shadow hover:shadow-md">
@@ -50,7 +56,7 @@ export function ProductCard({ product }: ProductCardProps) {
             target="_blank"
             rel="noopener noreferrer sponsored"
           >
-            {product.affiliateUrl.includes("stan.store") ? "Buy on Stan" : "View on Amazon"}
+            {affiliateCtaLabel(product.affiliateUrl)}
             <ExternalLink className="ml-2 h-4 w-4" />
           </a>
         </Button>

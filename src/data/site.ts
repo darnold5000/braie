@@ -2,9 +2,9 @@ export const siteConfig = {
   name: "Braie",
   fullName: "Braie Speed Swann",
   tagline:
-    "Judge, creator, and educator — helping the gymnastics community understand scoring and helping brands create content that converts.",
+    "Judge, creator, and educator — helping the gymnastics community understand scoring, one Braie-kdown at a time.",
   description:
-    "Former NCAA All-American gymnast, USAG judge, and UGC creator. Routine reviews, judging education, and brand content for lifestyle, fitness, and sports.",
+    "Former NCAA All-American gymnast, USAG judge, and creator behind the Braie-kdown series. Learn judging, get personalized routine feedback, and explore Braie's favorites.",
   url: "https://braie.com",
   email: "braieswann@gmail.com",
   videoReviewEmail: "coachjudgebraievideoreview@gmail.com",
@@ -22,7 +22,7 @@ export const credibilityStats = [
   { label: "USAG Judge", value: "Certified" },
   { label: "Former NCAA", value: "All-American" },
   { label: "Content Creator", value: "4+ Years" },
-  { label: "Routine Reviews", value: "500+" },
+  { label: "Braie-kdowns", value: "500+" },
 ];
 
 export const trustCards = [
@@ -57,28 +57,28 @@ export const brandBio = {
     "Former Elite & NCAA All-American gymnast, USAG judge, and creator behind the Braie-kdown series — helping the gymnastics community understand scoring from a judge's eyes.",
   full: `I'm Braie Speed Swann — a former Elite and NCAA All-American gymnast at the University of Arkansas, now a gymnastics judge, educator, and content creator with over four years of UGC experience.
 
-Through my Braie-kdown series on Instagram, TikTok, and YouTube, I break down routines, explain deductions, and make judging concepts accessible for gymnasts, coaches, and parents. I also offer personalized video critiques and one-on-one consultations.
+Through my Braie-kdown series on Instagram, TikTok, and YouTube, I break down routines, explain deductions, and make judging concepts accessible for gymnasts, coaches, and parents. I also offer personalized Braie-kdowns and one-on-one consultations.
 
 My mission is simple: help the gymnastics community understand scoring — not just athletes, but parents decoding score sheets, coaches building better routines, and future judges learning the code.`,
 };
 
 export const homepageOfferings = [
   {
-    icon: "clipboard",
-    title: "Routine Reviews",
-    description: "Personalized video breakdowns from a judge's perspective.",
-    href: "/routine-breakdowns",
-  },
-  {
     icon: "book",
-    title: "Judging Guides",
-    description: "PDF critiques and resources by level and event.",
-    href: "/resources",
+    title: "Learn",
+    description: "Free guides, downloads, and judging education from Braie.",
+    href: "/learn",
   },
   {
-    icon: "camera",
-    title: "For Brands",
-    description: "UGC videos, photos, and social content for your campaigns.",
-    href: "/brands",
+    icon: "clipboard",
+    title: "Braie-kdowns",
+    description: "Personalized video routine analysis from a judge's perspective.",
+    href: "/braie-kdowns",
+  },
+  {
+    icon: "video",
+    title: "Videos",
+    description: "Braie-kdowns, explainers, and judging content across social.",
+    href: "/videos",
   },
 ];

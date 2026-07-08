@@ -9,6 +9,20 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "m.media-amazon.com" },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/routine-breakdowns",
+        destination: "/braie-kdowns",
+        permanent: true,
+      },
+      {
+        source: "/resources",
+        destination: "/learn",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import { mainNavItems, primaryCta } from "@/data/navigation";
 import { siteConfig } from "@/data/site";
 import { Button } from "@/components/ui/button";
 import {
@@ -14,17 +15,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-
-const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/routine-breakdowns", label: "Routine Reviews" },
-  { href: "/resources", label: "Resources" },
-  { href: "/shop", label: "Shop" },
-  { href: "/videos", label: "Videos" },
-  { href: "/brands", label: "For Brands" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
-];
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -43,7 +33,7 @@ export function SiteHeader() {
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
-          {navItems.map((item) => (
+          {mainNavItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
@@ -61,7 +51,7 @@ export function SiteHeader() {
 
         <div className="hidden lg:block">
           <Button asChild size="sm" className="rounded-full">
-            <Link href="/routine-breakdowns">Get a Review</Link>
+            <Link href={primaryCta.href}>{primaryCta.label}</Link>
           </Button>
         </div>
 
@@ -74,7 +64,7 @@ export function SiteHeader() {
               <SheetTitle>{siteConfig.name}</SheetTitle>
             </SheetHeader>
             <nav className="mt-8 flex flex-col gap-1">
-              {navItems.map((item) => (
+              {mainNavItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
@@ -90,8 +80,8 @@ export function SiteHeader() {
                 </Link>
               ))}
               <Button asChild className="mt-4 rounded-full">
-                <Link href="/routine-breakdowns" onClick={() => setOpen(false)}>
-                  Get a Review
+                <Link href={primaryCta.href} onClick={() => setOpen(false)}>
+                  {primaryCta.label}
                 </Link>
               </Button>
             </nav>

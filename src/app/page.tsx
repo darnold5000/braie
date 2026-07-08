@@ -19,13 +19,13 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Gymnastics Judge, Creator & Educator",
   description:
-    "Understand gymnastics like a judge. Routine reviews, judging guides, and Braie-kdown content from Braie Speed Swann.",
+    "Learn gymnastics judging with Braie Speed Swann. Braie-kdowns, free guides, videos, and shop favorites from a USAG judge and former NCAA All-American.",
   path: "/",
 });
 
 export default function HomePage() {
   const featuredProducts = products.filter((p) => p.featured).slice(0, 3);
-  const featuredResources = resources.slice(0, 3);
+  const featuredLearn = resources.slice(0, 3);
 
   return (
     <>
@@ -35,16 +35,16 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <SectionHeading
-            eyebrow="Mission"
-            title="Helping the gymnastics community understand judging"
+            eyebrow="Meet Braie"
+            title="Gymnastics education, from a judge who gets it"
             description={brandBio.short}
           />
           <div className="space-y-4">
             <p className="leading-relaxed text-muted-foreground">
               Parents decoding score sheets. Coaches building better routines.
               Athletes chasing cleaner execution. Braie-kdowns make judging
-              concepts accessible — then routine reviews put that knowledge to
-              work.
+              concepts accessible — then personalized feedback puts that
+              knowledge to work on your routine.
             </p>
             <Button asChild variant="outline" className="rounded-full">
               <Link href="/about">
@@ -62,51 +62,51 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeading
-              eyebrow="Latest Videos"
-              title="Don't take my word for it — watch"
-              description="Braie-kdowns, deduction explainers, and judging education on Instagram, TikTok, and YouTube."
+              eyebrow="Learn"
+              title="Free guides & judging tips"
+              description="Downloads, worksheets, and education from Braie's library — the same ideas behind her videos."
             />
             <Button asChild variant="ghost" className="shrink-0 rounded-full">
-              <Link href="/videos">All videos</Link>
+              <Link href="/learn">Explore Learn</Link>
             </Button>
           </div>
-          <FeaturedContentGrid items={featuredContent.slice(0, 6)} />
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {featuredLearn.map((resource) => (
+              <ResourceCard key={resource.id} resource={resource} />
+            ))}
+          </div>
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
-            eyebrow="Shop"
-            title="Braie's favorites"
-            description="Level breakdowns, event packages, and published books."
+            eyebrow="Videos"
+            title="Don't take my word for it — watch"
+            description="Braie-kdowns, deduction explainers, and judging education on Instagram, TikTok, and YouTube."
           />
           <Button asChild variant="ghost" className="shrink-0 rounded-full">
-            <Link href="/shop">Browse the shop</Link>
+            <Link href="/videos">All videos</Link>
           </Button>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
+        <FeaturedContentGrid items={featuredContent.slice(0, 6)} />
       </section>
 
       <section className="bg-secondary/30 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeading
-              eyebrow="Resources"
-              title="Guides, journals & downloads"
-              description="Score sheet guides, meet prep checklists, and level-specific tips."
+              eyebrow="Shop"
+              title="Braie's favorites"
+              description="Meet essentials, equipment picks, level breakdowns, and affiliate favorites."
             />
             <Button asChild variant="ghost" className="shrink-0 rounded-full">
-              <Link href="/resources">All resources</Link>
+              <Link href="/shop">Browse the shop</Link>
             </Button>
           </div>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {featuredResources.map((resource) => (
-              <ResourceCard key={resource.id} resource={resource} />
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
             ))}
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Newsletter"
             title="Judging tips in your inbox"
-            description="New Braie-kdowns, resource drops, and routine review openings."
+            description="New Braie-kdowns, learn page drops, and openings for personalized feedback."
             className="mb-6"
           />
           <NewsletterSignup />
@@ -126,10 +126,10 @@ export default function HomePage() {
 
       <div className="pb-16">
         <CTASection
-          title="Ready to understand your routine like a judge?"
-          description={`Send in a practice video and get a detailed Braie-kdown-style analysis. ${siteConfig.routineBreakdownPrice}.`}
-          primaryLabel="Get a Routine Review"
-          primaryHref="/routine-breakdowns"
+          title="Ready for your own Braie-kdown?"
+          description={`Send in a practice video and get detailed judge-level analysis. ${siteConfig.routineBreakdownPrice}.`}
+          primaryLabel="Get a Braie-kdown"
+          primaryHref="/braie-kdowns"
           secondaryLabel="Watch Videos"
           secondaryHref="/videos"
         />
