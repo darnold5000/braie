@@ -1,4 +1,15 @@
+"use client";
+
+import { useState } from "react";
+import { Play } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
+
+const sampleVideo = {
+  title: "Level 3 Bar Routine — Through a Judge's Eyes",
+  description: "From the Braie-kdown series on YouTube",
+  embedSrc: "https://www.youtube-nocookie.com/embed/mMon79hVmS8",
+  thumbnailUrl: "https://img.youtube.com/vi/mMon79hVmS8/hqdefault.jpg",
+};
 
 const sampleFeedback = [
   {
@@ -22,6 +33,8 @@ const sampleFeedback = [
 ];
 
 export function FeedbackExample() {
+  const [playing, setPlaying] = useState(false);
+
   return (
     <section className="bg-secondary/30 py-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -33,21 +46,39 @@ export function FeedbackExample() {
         />
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="overflow-hidden rounded-2xl border border-border/70 bg-card shadow-sm">
-            <div className="aspect-video bg-secondary">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="https://img.youtube.com/vi/iPyMwnVXQnk/hqdefault.jpg"
-                alt="Sample routine breakdown"
-                className="h-full w-full object-cover"
-              />
+            <div className="relative aspect-video bg-secondary">
+              {playing ? (
+                <iframe
+                  src={`${sampleVideo.embedSrc}?rel=0`}
+                  title={sampleVideo.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="absolute inset-0 h-full w-full border-0"
+                />
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => setPlaying(true)}
+                  className="group relative flex h-full w-full items-center justify-center"
+                  aria-label={`Play ${sampleVideo.title}`}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={sampleVideo.thumbnailUrl}
+                    alt={sampleVideo.title}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                  <span className="absolute inset-0 flex items-center justify-center bg-foreground/20 transition-colors group-hover:bg-foreground/30">
+                    <span className="flex h-14 w-14 items-center justify-center rounded-full bg-background/95 text-primary shadow-lg">
+                      <Play className="ml-1 h-6 w-6 fill-current" />
+                    </span>
+                  </span>
+                </button>
+              )}
             </div>
             <div className="p-4">
-              <p className="text-sm font-medium text-foreground">
-                Level 3 Bar Routine — Sample Clip
-              </p>
-              <p className="mt-1 text-xs text-muted-foreground">
-                From the Braie-kdown series on YouTube
-              </p>
+              <p className="text-sm font-medium text-foreground">{sampleVideo.title}</p>
+              <p className="mt-1 text-xs text-muted-foreground">{sampleVideo.description}</p>
             </div>
           </div>
 

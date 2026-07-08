@@ -14,8 +14,7 @@ export const siteConfig = {
   venmo: "@coachbraie",
   routineBreakdownPrice: "$15 per event",
   consultationPrice: "From $30 / 15 min",
-  heroImage:
-    "https://assets.stanwith.me/live/msc/28555275/sno9j/b2f763f9fe8e4aad9555748e8d50682a.jpg",
+  heroImage: "/images/braie-portrait.png",
 };
 
 export const credibilityStats = [

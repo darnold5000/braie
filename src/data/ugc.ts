@@ -4,6 +4,7 @@ export const ugcConfig = {
   description:
     "Braie helps companies create videos and photos for their platforms — combining 4+ years of UGC experience with a former NCAA athlete's credibility in fitness, lifestyle, and sports.",
   yearsExperience: "4+",
+  heroImage: "/images/braie-brands.png",
 };
 
 export const ugcFocusAreas = [

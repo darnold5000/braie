@@ -50,12 +50,12 @@ export function HeroSection() {
         </div>
 
         <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="aspect-[4/5] overflow-hidden rounded-3xl bg-secondary shadow-xl ring-1 ring-border/50">
+          <div className="aspect-square overflow-hidden rounded-3xl bg-secondary shadow-xl ring-1 ring-border/50">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={siteConfig.heroImage}
               alt="Braie Speed Swann"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-contain"
             />
           </div>
           <div className="absolute -bottom-4 -left-4 rounded-2xl bg-card p-4 shadow-lg ring-1 ring-border/50 sm:-left-6">

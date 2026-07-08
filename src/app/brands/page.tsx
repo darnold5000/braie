@@ -56,12 +56,12 @@ export default function BrandsPage() {
               </Button>
             </div>
           </div>
-          <div className="aspect-[4/3] overflow-hidden rounded-3xl bg-secondary shadow-xl ring-1 ring-border/50">
+          <div className="aspect-[700/934] overflow-hidden rounded-3xl bg-secondary shadow-xl ring-1 ring-border/50">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={siteConfig.heroImage}
+              src={ugcConfig.heroImage}
               alt="Braie Speed Swann — UGC creator"
-              className="h-full w-full object-cover object-top"
+              className="h-full w-full object-contain"
             />
           </div>
         </div>
