@@ -148,7 +148,7 @@ export default function BraieKdownsPage() {
             <SectionHeading
               eyebrow="Pricing"
               title="Submit your routine"
-              description={`${siteConfig.routineBreakdownPrice} per event. Fill out the form and include a shareable video link — or email your video directly.`}
+              description={`${siteConfig.routineBreakdownPrice}. Fill out the form and include a shareable video link — or email your video directly.`}
             />
             <div className="mt-6 rounded-2xl bg-accent/50 p-5">
               <div className="flex items-start gap-3">

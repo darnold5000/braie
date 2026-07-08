@@ -59,14 +59,6 @@ export function HeroSection() {
               className="h-full w-full object-contain"
             />
           </div>
-          <div className="absolute -bottom-4 -left-4 rounded-2xl bg-card p-4 shadow-lg ring-1 ring-border/50 sm:-left-6">
-            <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-              Braie-kdowns
-            </p>
-            <p className="mt-1 text-lg font-semibold text-foreground">
-              {siteConfig.routineBreakdownPrice}
-            </p>
-          </div>
         </div>
       </div>
     </section>

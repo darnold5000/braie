@@ -12,7 +12,7 @@ export const siteConfig = {
     "https://www.smeeple.com/ask-an-expert/ask-a-gymnastics-expert-braie-speed-swann",
   stanStoreUrl: "https://stan.store/JudgeBraie",
   venmo: "@coachbraie",
-  routineBreakdownPrice: "$15 per event",
+  routineBreakdownPrice: "$25 per event",
   consultationPrice: "From $30 / 15 min",
   heroImage: "/images/braie-portrait.png",
 };
