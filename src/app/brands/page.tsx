@@ -7,7 +7,7 @@ import { SocialLinks } from "@/components/SocialLinks";
 import { ServiceProcessFlow } from "@/components/ServiceProcessFlow";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/data/site";
-import { portfolioPhotos, portfolioVideos } from "@/data/portfolio";
+import { getPortfolioPhotos, getPortfolioVideos } from "@/lib/portfolio";
 import {
   ugcConfig,
   ugcDeliverables,
@@ -26,6 +26,9 @@ export const metadata = createPageMetadata({
 });
 
 export default function BrandsPage() {
+  const portfolioVideos = getPortfolioVideos();
+  const portfolioPhotos = getPortfolioPhotos();
+
   return (
     <>
       <section className="relative overflow-hidden bg-secondary/30 py-16">

@@ -56,6 +56,8 @@ export type FeaturedContent = {
   href: string;
   thumbnailUrl: string;
   description?: string;
+  /** iframe src for in-site playback (YouTube nocookie, Instagram/TikTok embed, etc.) */
+  embedSrc?: string;
 };
 
 export type InquiryType =

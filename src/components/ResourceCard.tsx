@@ -53,12 +53,12 @@ export function ResourceCard({ resource }: ResourceCardProps) {
   return (
     <Card className="flex h-full flex-col overflow-hidden rounded-2xl border-border/70 shadow-sm transition-shadow hover:shadow-md">
       {resource.imageUrl && (
-        <div className="aspect-[16/10] overflow-hidden bg-secondary">
+        <div className="aspect-square overflow-hidden bg-secondary">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={resource.imageUrl}
             alt={resource.title}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-contain p-2"
           />
         </div>
       )}
