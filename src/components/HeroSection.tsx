@@ -12,15 +12,16 @@ export function HeroSection() {
       <div className="relative mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:items-center lg:py-24">
         <div>
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
-            Judge · Creator · Educator
+            Former NCAA All-American · Judge · Creator
           </p>
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
-            Understand Gymnastics Like a Judge
+            Helping the gymnastics community learn, improve, and connect.
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            I&apos;m Braie — former NCAA All-American, USAG judge, and creator behind
-            the Braie-kdown series. I help athletes, parents, and coaches decode
-            scoring and improve performance.
+            I&apos;m Braie—a former NCAA All-American gymnast, gymnastics judge, and
+            creator. Through educational content, routine reviews, product
+            recommendations, and brand partnerships, I share trusted insights that
+            help athletes, parents, coaches, and the companies that serve them.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="rounded-full">

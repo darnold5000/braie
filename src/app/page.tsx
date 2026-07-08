@@ -17,9 +17,9 @@ import { featuredContent } from "@/data/featuredContent";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Gymnastics Judge, Creator & Educator",
+  title: "Former NCAA All-American · Judge · Creator",
   description:
-    "Learn gymnastics judging with Braie Speed Swann. Braie-kdowns, free guides, videos, and shop favorites from a USAG judge and former NCAA All-American.",
+    "Braie Speed Swann helps the gymnastics community learn, improve, and connect — through educational content, Braie-kdowns, product recommendations, and brand partnerships.",
   path: "/",
 });
 
@@ -36,15 +36,12 @@ export default function HomePage() {
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <SectionHeading
             eyebrow="Meet Braie"
-            title="Gymnastics education, from a judge who gets it"
-            description={brandBio.short}
+            title="Trusted insights for the whole gymnastics community"
+            description="From free education and Braie-kdowns to product picks and brand partnerships — everything Braie shares is built to help people learn, improve, and connect."
           />
           <div className="space-y-4">
             <p className="leading-relaxed text-muted-foreground">
-              Parents decoding score sheets. Coaches building better routines.
-              Athletes chasing cleaner execution. Braie-kdowns make judging
-              concepts accessible — then personalized feedback puts that
-              knowledge to work on your routine.
+              {brandBio.short}
             </p>
             <Button asChild variant="outline" className="rounded-full">
               <Link href="/about">

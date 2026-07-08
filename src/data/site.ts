@@ -2,9 +2,9 @@ export const siteConfig = {
   name: "Braie",
   fullName: "Braie Speed Swann",
   tagline:
-    "Judge, creator, and educator — helping the gymnastics community understand scoring, one Braie-kdown at a time.",
+    "Former NCAA All-American, judge, and creator — helping the gymnastics community learn, improve, and connect.",
   description:
-    "Former NCAA All-American gymnast, USAG judge, and creator behind the Braie-kdown series. Learn judging, get personalized routine feedback, and explore Braie's favorites.",
+    "Educational content, Braie-kdowns, product recommendations, and brand partnerships from Braie Speed Swann — trusted insights for athletes, parents, coaches, and the companies that serve them.",
   url: "https://braie.com",
   email: "braieswann@gmail.com",
   videoReviewEmail: "coachjudgebraievideoreview@gmail.com",

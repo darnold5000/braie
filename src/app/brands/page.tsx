@@ -19,7 +19,7 @@ import { socialLinks } from "@/data/socialLinks";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Brands — UGC & Social Media",
+  title: "Work with Me — UGC & Brand Partnerships",
   description:
     "Partner with Braie Speed Swann for UGC videos, photos, and social content. 4+ years creating lifestyle, beauty, fitness, wellness, and sports content for brands.",
   path: "/brands",
