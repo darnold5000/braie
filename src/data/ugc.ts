@@ -3,7 +3,6 @@ export const ugcConfig = {
   headline: "Authentic content that converts for your brand",
   description:
     "Braie helps companies create videos and photos for their platforms — combining 4+ years of UGC experience with a former NCAA athlete's credibility in fitness, lifestyle, and sports.",
-  portfolioUrl: "https://braieugccreatorcontent.my.canva.site/",
   yearsExperience: "4+",
 };
 

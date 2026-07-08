@@ -2,10 +2,12 @@ import Link from "next/link";
 import { ArrowRight, Camera, Clapperboard, Sparkles } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { CTASection } from "@/components/CTASection";
+import { PortfolioGallery } from "@/components/PortfolioGallery";
 import { SocialLinks } from "@/components/SocialLinks";
 import { ServiceProcessFlow } from "@/components/ServiceProcessFlow";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/data/site";
+import { portfolioPhotos, portfolioVideos } from "@/data/portfolio";
 import {
   ugcConfig,
   ugcDeliverables,
@@ -47,13 +49,7 @@ export default function BrandsPage() {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="rounded-full">
-                <a
-                  href={ugcConfig.portfolioUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View Portfolio
-                </a>
+                <a href="#portfolio">View Portfolio</a>
               </Button>
             </div>
           </div>
@@ -149,36 +145,24 @@ export default function BrandsPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+      <section id="portfolio" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <SectionHeading
           eyebrow="Portfolio"
           title="Featured video & photo work"
-          description="Explore Braie's UGC portfolio and social channels for recent brand content."
-          className="mb-8"
+          description="Sample UGC videos and lifestyle photos from recent brand collaborations — all hosted right here."
+          className="mb-10"
         />
-        <div className="rounded-2xl border border-border/70 bg-card p-8 text-center shadow-sm">
-          <p className="text-muted-foreground">
-            Full portfolio with featured video and photo work lives on Braie&apos;s
-            creator site and social channels.
-          </p>
-          <div className="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button asChild className="rounded-full">
-              <a
-                href={ugcConfig.portfolioUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View UGC Portfolio
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </a>
-            </Button>
-            <Button asChild variant="outline" className="rounded-full">
-              <Link href="/videos">Watch Creator Content</Link>
-            </Button>
-          </div>
-          <div className="mt-8 flex justify-center">
-            <SocialLinks links={socialLinks} />
-          </div>
+        <PortfolioGallery videos={portfolioVideos} photos={portfolioPhotos} />
+        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <Button asChild variant="outline" className="rounded-full">
+            <Link href="/videos">
+              Watch Creator Content
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
+        <div className="mt-8 flex justify-center">
+          <SocialLinks links={socialLinks} />
         </div>
       </section>
 
