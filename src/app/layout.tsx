@@ -19,13 +19,13 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.name} | Gymnastics Judge, Creator & Routine Breakdown Specialist`,
+    default: `${siteConfig.name} | Judge, Creator & Educator`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   openGraph: {
-    title: `${siteConfig.name} | Gymnastics Judge, Creator & Routine Breakdown Specialist`,
+    title: `${siteConfig.name} | Judge, Creator & Educator`,
     description: siteConfig.description,
     siteName: siteConfig.name,
     type: "website",

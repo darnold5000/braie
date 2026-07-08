@@ -17,10 +17,10 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/routine-breakdowns", label: "Routine Breakdowns" },
-  { href: "/shop", label: "Shop" },
+  { href: "/routine-breakdowns", label: "Routine Reviews" },
   { href: "/resources", label: "Resources" },
+  { href: "/shop", label: "Shop" },
+  { href: "/videos", label: "Videos" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -60,7 +60,7 @@ export function SiteHeader() {
 
         <div className="hidden lg:block">
           <Button asChild size="sm" className="rounded-full">
-            <Link href="/routine-breakdowns">Book a Breakdown</Link>
+            <Link href="/routine-breakdowns">Get a Review</Link>
           </Button>
         </div>
 
@@ -90,7 +90,7 @@ export function SiteHeader() {
               ))}
               <Button asChild className="mt-4 rounded-full">
                 <Link href="/routine-breakdowns" onClick={() => setOpen(false)}>
-                  Book a Breakdown
+                  Get a Review
                 </Link>
               </Button>
             </nav>

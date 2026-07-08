@@ -11,20 +11,29 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { ServiceProcessFlow } from "@/components/ServiceProcessFlow";
 
 type ServiceCardProps = {
   service: Service;
+  showProcess?: boolean;
 };
 
-export function ServiceCard({ service }: ServiceCardProps) {
+export function ServiceCard({ service, showProcess = true }: ServiceCardProps) {
   const isExternal = service.ctaHref.startsWith("http");
 
   return (
-    <Card className="flex h-full flex-col overflow-hidden rounded-2xl border-border/70 shadow-sm transition-shadow hover:shadow-md">
+    <Card className="relative flex h-full flex-col overflow-hidden rounded-2xl border-border/70 shadow-sm transition-shadow hover:shadow-md">
+      {service.mostPopular && (
+        <div className="absolute -right-8 top-5 z-10 rotate-45 bg-primary px-10 py-1 text-xs font-bold uppercase tracking-wide text-primary-foreground shadow-md">
+          Most Popular
+        </div>
+      )}
       <CardHeader>
-        <div className="flex items-start justify-between gap-3">
+        <div className="flex items-start justify-between gap-3 pr-6">
           <CardTitle className="text-xl">{service.title}</CardTitle>
-          {service.featured && <Badge variant="secondary">Popular</Badge>}
+          {service.featured && !service.mostPopular && (
+            <Badge variant="secondary">Popular</Badge>
+          )}
         </div>
         <CardDescription className="text-base leading-relaxed">
           {service.description}
@@ -41,6 +50,9 @@ export function ServiceCard({ service }: ServiceCardProps) {
         </div>
         {service.showPrice && service.price && (
           <p className="text-sm font-semibold text-foreground">{service.price}</p>
+        )}
+        {showProcess && service.processSteps && (
+          <ServiceProcessFlow steps={service.processSteps} />
         )}
       </CardContent>
       <CardFooter>

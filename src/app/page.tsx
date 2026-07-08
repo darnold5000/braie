@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { HeroSection } from "@/components/HeroSection";
+import { TrustSection } from "@/components/TrustSection";
+import { OfferingIcons } from "@/components/OfferingIcons";
 import { SectionHeading } from "@/components/SectionHeading";
-import { ServiceCard } from "@/components/ServiceCard";
 import { ProductCard } from "@/components/ProductCard";
 import { ResourceCard } from "@/components/ResourceCard";
 import { CTASection } from "@/components/CTASection";
@@ -10,40 +11,40 @@ import { NewsletterSignup } from "@/components/NewsletterSignup";
 import { FeaturedContentGrid } from "@/components/FeaturedContentGrid";
 import { Button } from "@/components/ui/button";
 import { brandBio, siteConfig } from "@/data/site";
-import { services } from "@/data/services";
 import { products } from "@/data/products";
 import { resources } from "@/data/resources";
 import { featuredContent } from "@/data/featuredContent";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata = createPageMetadata({
-  title: "Gymnastics Judge, Creator & Routine Breakdown Specialist",
+  title: "Gymnastics Judge, Creator & Educator",
   description:
-    "Get gymnastics routine breakdowns, judging insights, meet prep resources, and curated gymnastics favorites from Braie.",
+    "Understand gymnastics like a judge. Routine reviews, judging guides, and Braie-kdown content from Braie Speed Swann.",
   path: "/",
 });
 
 export default function HomePage() {
-  const featuredServices = services.filter((s) => s.featured);
-  const featuredProducts = products.filter((p) => p.featured);
+  const featuredProducts = products.filter((p) => p.featured).slice(0, 3);
   const featuredResources = resources.slice(0, 3);
 
   return (
     <>
       <HeroSection />
+      <TrustSection />
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <SectionHeading
-            eyebrow="About"
-            title="Judging insights from someone who's been there"
+            eyebrow="Mission"
+            title="Helping the gymnastics community understand judging"
             description={brandBio.short}
           />
           <div className="space-y-4">
-            <p className="text-muted-foreground leading-relaxed">
-              From Elite and NCAA All-American experience to coaching, judging,
-              and creating the Braie-kdown series — I help the gymnastics
-              community understand scoring and perform with confidence.
+            <p className="leading-relaxed text-muted-foreground">
+              Parents decoding score sheets. Coaches building better routines.
+              Athletes chasing cleaner execution. Braie-kdowns make judging
+              concepts accessible — then routine reviews put that knowledge to
+              work.
             </p>
             <Button asChild variant="outline" className="rounded-full">
               <Link href="/about">
@@ -55,23 +56,21 @@ export default function HomePage() {
         </div>
       </section>
 
+      <OfferingIcons />
+
       <section className="bg-secondary/30 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeading
-              eyebrow="Services"
-              title="How I can help"
-              description="Routine breakdowns, judging Q&A, meet prep, and brand collaborations."
+              eyebrow="Latest Videos"
+              title="Don't take my word for it — watch"
+              description="Braie-kdowns, deduction explainers, and judging education on Instagram, TikTok, and YouTube."
             />
-            <Button asChild variant="ghost" className="rounded-full shrink-0">
-              <Link href="/services">View all services</Link>
+            <Button asChild variant="ghost" className="shrink-0 rounded-full">
+              <Link href="/videos">All videos</Link>
             </Button>
           </div>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {featuredServices.map((service) => (
-              <ServiceCard key={service.id} service={service} />
-            ))}
-          </div>
+          <FeaturedContentGrid items={featuredContent.slice(0, 6)} />
         </div>
       </section>
 
@@ -80,9 +79,9 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Shop"
             title="Braie's favorites"
-            description="Judging critique PDFs, event packages, and books from her Stan store and Amazon."
+            description="Level breakdowns, event packages, and published books."
           />
-          <Button asChild variant="ghost" className="rounded-full shrink-0">
+          <Button asChild variant="ghost" className="shrink-0 rounded-full">
             <Link href="/shop">Browse the shop</Link>
           </Button>
         </div>
@@ -98,10 +97,10 @@ export default function HomePage() {
           <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeading
               eyebrow="Resources"
-              title="Guides, journals & free downloads"
-              description="Score sheets, meet prep checklists, and level-specific tips."
+              title="Guides, journals & downloads"
+              description="Score sheet guides, meet prep checklists, and level-specific tips."
             />
-            <Button asChild variant="ghost" className="rounded-full shrink-0">
+            <Button asChild variant="ghost" className="shrink-0 rounded-full">
               <Link href="/resources">All resources</Link>
             </Button>
           </div>
@@ -114,21 +113,11 @@ export default function HomePage() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <SectionHeading
-          eyebrow="Content"
-          title="Follow for gymnastics judging tips"
-          description="Braie-kdowns, deduction explainers, and coaching content on Instagram, TikTok, and YouTube."
-          className="mb-10"
-        />
-        <FeaturedContentGrid items={featuredContent.slice(0, 6)} />
-      </section>
-
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="rounded-3xl border border-border/70 bg-card p-8 sm:p-10">
           <SectionHeading
             eyebrow="Newsletter"
-            title="Get judging tips in your inbox"
-            description="Occasional updates on new Braie-kdowns, resources, and routine review openings."
+            title="Judging tips in your inbox"
+            description="New Braie-kdowns, resource drops, and routine review openings."
             className="mb-6"
           />
           <NewsletterSignup />
@@ -137,12 +126,12 @@ export default function HomePage() {
 
       <div className="pb-16">
         <CTASection
-          title="Ready for feedback on your routine?"
+          title="Ready to understand your routine like a judge?"
           description={`Send in a practice video and get a detailed Braie-kdown-style analysis. ${siteConfig.routineBreakdownPrice}.`}
-          primaryLabel="Book a Routine Breakdown"
+          primaryLabel="Get a Routine Review"
           primaryHref="/routine-breakdowns"
-          secondaryLabel="Ask a Question"
-          secondaryHref="/contact"
+          secondaryLabel="Watch Videos"
+          secondaryHref="/videos"
         />
       </div>
     </>

@@ -11,7 +11,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "About",
   description:
-    "Meet Braie Speed Swann — former Elite and NCAA All-American gymnast, coach, judge, and creator behind the Braie-kdown series.",
+    "Meet Braie Speed Swann — former Elite and NCAA All-American gymnast, USAG judge, educator, and creator behind the Braie-kdown series.",
   path: "/about",
 });
 
@@ -24,9 +24,9 @@ const highlights = [
   },
   {
     icon: Scale,
-    title: "Coach & Judge",
+    title: "Judge & Educator",
     description:
-      "Current head coach and judge, helping athletes and the gymnastics community understand scoring from the inside.",
+      "USAG judge and educator helping the gymnastics community understand scoring from the inside.",
   },
   {
     icon: GraduationCap,
@@ -56,9 +56,9 @@ export default function AboutPage() {
             <div className="aspect-[4/3] overflow-hidden rounded-3xl bg-secondary shadow-lg ring-1 ring-border/50">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&h=600&fit=crop"
-                alt="Gymnastics training"
-                className="h-full w-full object-cover"
+                src={siteConfig.heroImage}
+                alt="Braie Speed Swann"
+                className="h-full w-full object-cover object-top"
               />
             </div>
           </div>

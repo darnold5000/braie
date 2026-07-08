@@ -4,13 +4,16 @@ import { storeNewsletterSubscriber } from "@/lib/forms";
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { email } = body;
+    const { email, resource } = body;
 
     if (!email || typeof email !== "string") {
       return NextResponse.json({ error: "Email is required." }, { status: 400 });
     }
 
-    await storeNewsletterSubscriber(email.trim().toLowerCase());
+    await storeNewsletterSubscriber(
+      email.trim().toLowerCase(),
+      typeof resource === "string" ? resource : undefined,
+    );
 
     return NextResponse.json({ success: true });
   } catch (err) {

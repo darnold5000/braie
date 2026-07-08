@@ -102,7 +102,7 @@ export async function storeOrNotifyContact(data: {
   });
 }
 
-export async function storeNewsletterSubscriber(email: string) {
+export async function storeNewsletterSubscriber(email: string, resource?: string) {
   const supabase = getSupabase();
 
   if (supabase) {
@@ -118,8 +118,10 @@ export async function storeNewsletterSubscriber(email: string) {
     }
   } else {
     await sendNotificationEmail({
-      subject: `Newsletter signup: ${email}`,
-      html: `<p>New newsletter subscriber: ${email}</p>`,
+      subject: resource
+        ? `Waitlist signup (${resource}): ${email}`
+        : `Newsletter signup: ${email}`,
+      html: `<p>New subscriber: ${email}${resource ? `<br>Resource: ${resource}` : ""}</p>`,
     });
   }
 }

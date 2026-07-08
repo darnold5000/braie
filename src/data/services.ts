@@ -1,19 +1,36 @@
 import type { Service } from "@/types";
 import { siteConfig } from "./site";
 
+const routineProcessSteps = [
+  {
+    title: "Upload your routine",
+    description: "Share a practice video link or email your footage directly.",
+  },
+  {
+    title: "Receive recorded feedback",
+    description: "Get a Braie-kdown-style analysis covering deductions and fixes.",
+  },
+  {
+    title: "Improve before your next meet",
+    description: "Apply judge-level insights before competition day.",
+  },
+];
+
 export const services: Service[] = [
   {
     id: "routine-breakdown",
     title: "Custom Routine Breakdown",
     description:
-      "Send your practice routine video and receive a detailed Braie-kdown-style analysis covering start value, execution, composition, artistry, and deductions to watch — recorded from a coach and judge's perspective.",
-    audience: "Gymnasts, parents, and coaches at any level",
+      "Send your practice routine video and receive a detailed Braie-kdown-style analysis covering start value, execution, composition, artistry, and deductions to watch — recorded from a judge's perspective.",
+    audience: "Athletes, parents, and coaches at any level",
     turnaround: "7–14 business days · Reviews sent Mondays",
     price: siteConfig.routineBreakdownPrice,
     showPrice: true,
     ctaLabel: "Request a Breakdown",
     ctaHref: "/routine-breakdowns",
     featured: true,
+    mostPopular: true,
+    processSteps: routineProcessSteps,
   },
   {
     id: "judge-qa",
@@ -27,6 +44,20 @@ export const services: Service[] = [
     ctaLabel: "Book on Smeeple",
     ctaHref: siteConfig.smeepleUrl,
     featured: true,
+    processSteps: [
+      {
+        title: "Pick a time slot",
+        description: "Choose an available session on Smeeple.",
+      },
+      {
+        title: "Bring your questions",
+        description: "Scoring, code, parenting a gymnast — whatever you need.",
+      },
+      {
+        title: "Leave with clarity",
+        description: "Walk away understanding judging from the inside.",
+      },
+    ],
   },
   {
     id: "meet-prep",
@@ -39,7 +70,7 @@ export const services: Service[] = [
     showPrice: true,
     ctaLabel: "Get Meet Prep Help",
     ctaHref: "/routine-breakdowns",
-    featured: true,
+    processSteps: routineProcessSteps,
   },
   {
     id: "choreography-feedback",
@@ -50,6 +81,7 @@ export const services: Service[] = [
     turnaround: "7–14 business days",
     ctaLabel: "Request Feedback",
     ctaHref: "/routine-breakdowns",
+    processSteps: routineProcessSteps,
   },
   {
     id: "brand-collab",
@@ -60,5 +92,19 @@ export const services: Service[] = [
     turnaround: "Response within 3–5 business days",
     ctaLabel: "Inquire About Collabs",
     ctaHref: "/contact?type=brand-partnership",
+    processSteps: [
+      {
+        title: "Send an inquiry",
+        description: "Tell us about your brand and campaign goals.",
+      },
+      {
+        title: "Review fit & scope",
+        description: "We'll align on deliverables and timeline.",
+      },
+      {
+        title: "Create together",
+        description: "Authentic UGC content built for your audience.",
+      },
+    ],
   },
 ];

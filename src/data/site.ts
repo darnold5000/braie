@@ -1,25 +1,84 @@
 export const siteConfig = {
   name: "Braie",
   fullName: "Braie Speed Swann",
-  tagline: "Gymnastics judge, creator, and routine breakdown specialist.",
+  tagline:
+    "Judge, creator, and educator helping the gymnastics community understand scoring.",
   description:
-    "Get gymnastics routine breakdowns, judging insights, meet prep resources, and curated gymnastics favorites from Braie.",
+    "Former NCAA All-American gymnast and USAG judge. Decode scoring, get routine reviews, and learn gymnastics the way judges see it.",
   url: "https://braie.com",
   email: "braieswann@gmail.com",
   videoReviewEmail: "coachjudgebraievideoreview@gmail.com",
   smeepleUrl:
     "https://www.smeeple.com/ask-an-expert/ask-a-gymnastics-expert-braie-speed-swann",
+  stanStoreUrl: "https://stan.store/JudgeBraie",
   venmo: "@coachbraie",
   routineBreakdownPrice: "$15 per event",
   consultationPrice: "From $30 / 15 min",
+  heroImage:
+    "https://assets.stanwith.me/live/msc/28555275/sno9j/b2f763f9fe8e4aad9555748e8d50682a.jpg",
 };
+
+export const credibilityStats = [
+  { label: "USAG Judge", value: "Certified" },
+  { label: "Former NCAA", value: "All-American" },
+  { label: "Content Creator", value: "4+ Years" },
+  { label: "Routine Reviews", value: "500+" },
+];
+
+export const trustCards = [
+  {
+    icon: "trophy",
+    title: "Former NCAA All-American",
+    description:
+      "Full-ride gymnast at the University of Arkansas. 2017 Regional Vault Champion.",
+  },
+  {
+    icon: "scale",
+    title: "Certified Judge",
+    description:
+      "Active USAG judge bringing real scoring knowledge to athletes, parents, and coaches.",
+  },
+  {
+    icon: "video",
+    title: "Millions of Video Views",
+    description:
+      "The Braie-kdown series on Instagram, TikTok, and YouTube makes judging accessible.",
+  },
+  {
+    icon: "handshake",
+    title: "Brand Partnerships",
+    description:
+      "4+ years of UGC content for lifestyle, fitness, parenting, and sports brands.",
+  },
+];
 
 export const brandBio = {
   short:
-    "Former Elite & NCAA All-American gymnast, current coach and judge, and creator behind the Braie-kdown series — helping athletes, parents, and coaches understand gymnastics from a judge's eyes.",
-  full: `I'm Braie Speed Swann — a former Elite and NCAA All-American gymnast at the University of Arkansas, now a gymnastics coach, judge, and content creator with over four years of UGC experience.
+    "Former Elite & NCAA All-American gymnast, USAG judge, and creator behind the Braie-kdown series — helping the gymnastics community understand scoring from a judge's eyes.",
+  full: `I'm Braie Speed Swann — a former Elite and NCAA All-American gymnast at the University of Arkansas, now a gymnastics judge, educator, and content creator with over four years of UGC experience.
 
 Through my Braie-kdown series on Instagram, TikTok, and YouTube, I break down routines, explain deductions, and make judging concepts accessible for gymnasts, coaches, and parents. I also offer personalized video critiques and one-on-one consultations.
 
-My mission is simple: help the gymnastics community understand scoring, build confidence, and perform their best — whether you're an athlete chasing your first kip or a parent trying to decode a score sheet.`,
+My mission is simple: help the gymnastics community understand scoring — not just athletes, but parents decoding score sheets, coaches building better routines, and future judges learning the code.`,
 };
+
+export const homepageOfferings = [
+  {
+    icon: "clipboard",
+    title: "Routine Reviews",
+    description: "Personalized video breakdowns from a judge's perspective.",
+    href: "/routine-breakdowns",
+  },
+  {
+    icon: "book",
+    title: "Judging Guides",
+    description: "PDF critiques and resources by level and event.",
+    href: "/resources",
+  },
+  {
+    icon: "message",
+    title: "Work With Me",
+    description: "Q&A sessions, collaborations, and judging consultations.",
+    href: "/contact",
+  },
+];

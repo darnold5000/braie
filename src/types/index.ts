@@ -9,6 +9,8 @@ export type Service = {
   ctaLabel: string;
   ctaHref: string;
   featured?: boolean;
+  mostPopular?: boolean;
+  processSteps?: { title: string; description: string }[];
 };
 
 export type ProductCategory =
@@ -37,6 +39,7 @@ export type Resource = {
   ctaLabel: string;
   href: string;
   imageUrl?: string;
+  waitlist?: boolean;
 };
 
 export type SocialLink = {

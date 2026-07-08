@@ -27,8 +27,8 @@ export default function ShopClient() {
     <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <SectionHeading
           eyebrow="Shop"
-          title="Curated gymnastics favorites"
-          description="Judging critique PDFs, event packages, and Braie's Amazon books — synced from her Stan store."
+          title="Braie's personal favorites"
+          description="Level breakdowns, event packages, and books — curated from her Stan store and Amazon."
           className="mb-8"
         />
 

@@ -7,8 +7,9 @@ export const resources: Resource[] = [
     description:
       "A plain-language walkthrough of how meet scores work — start value, execution, and what those numbers actually mean for your gymnast.",
     type: "free",
-    ctaLabel: "Coming Soon",
-    href: "/contact?type=judging-question",
+    ctaLabel: "Join Waitlist",
+    href: "#waitlist",
+    waitlist: true,
   },
   {
     id: "meet-prep-checklist",
@@ -16,8 +17,9 @@ export const resources: Resource[] = [
     description:
       "Everything to pack, practice, and review the week before a competition — from grips to mental prep.",
     type: "free",
-    ctaLabel: "Coming Soon",
-    href: "/contact?type=general",
+    ctaLabel: "Join Waitlist",
+    href: "#waitlist",
+    waitlist: true,
   },
   {
     id: "competition-journal",

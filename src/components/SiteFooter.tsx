@@ -1,14 +1,15 @@
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { siteConfig } from "@/data/site";
 import { socialLinks } from "@/data/socialLinks";
 import { SocialLinks } from "@/components/SocialLinks";
 import { Separator } from "@/components/ui/separator";
 
 const footerNav = [
-  { href: "/services", label: "Services" },
-  { href: "/routine-breakdowns", label: "Routine Breakdowns" },
-  { href: "/shop", label: "Shop" },
+  { href: "/routine-breakdowns", label: "Routine Reviews" },
   { href: "/resources", label: "Resources" },
+  { href: "/shop", label: "Shop" },
+  { href: "/videos", label: "Videos" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -81,15 +82,24 @@ export function SiteFooter() {
         <div className="flex flex-col gap-2 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} {siteConfig.fullName}. All rights reserved.</p>
           <p className="text-xs">
-            Affiliate links may earn a commission at no extra cost to you.
+            Digital products on{" "}
+            <a
+              href={siteConfig.stanStoreUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline-offset-2 hover:underline"
+            >
+              Stan
+            </a>
+            . Amazon links may earn a commission.
           </p>
         </div>
       </div>
 
-      <div className="border-t border-border/60 bg-background/60">
-        <div className="mx-auto max-w-6xl px-4 py-5 text-center sm:px-6">
-          <p className="text-sm text-muted-foreground">
-            Built &amp; powered by{" "}
+      <div className="border-t border-border/40 bg-background">
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-3 sm:flex-row sm:px-6">
+          <p className="text-xs text-muted-foreground">
+            Powered by{" "}
             <a
               href="https://hiresignalworks.com"
               target="_blank"
@@ -99,9 +109,15 @@ export function SiteFooter() {
               Signal Works
             </a>
           </p>
-          <p className="mt-1.5 text-xs text-muted-foreground/80">
-            Website • Hosting • Security • SEO • Analytics • Ongoing Improvements
-          </p>
+          <a
+            href="https://hiresignalworks.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-1.5 text-xs text-muted-foreground transition-colors hover:text-primary"
+          >
+            <span>Hosting · Security · SEO · Analytics · Monthly Improvements</span>
+            <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
+          </a>
         </div>
       </div>
     </footer>

@@ -17,8 +17,8 @@ export default function ServicesPage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <SectionHeading
           eyebrow="Services"
-          title="Work with Braie"
-          description="Personalized feedback, judging guidance, and creator partnerships — built for gymnasts, parents, coaches, and brands."
+          title="Work With Braie"
+          description="Routine reviews are the main offering. Q&A sessions, meet prep, and brand collaborations are also available."
           className="mb-12"
         />
         <div className="grid gap-6 md:grid-cols-2">

@@ -8,6 +8,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { RoutineBreakdownForm } from "@/components/RoutineBreakdownForm";
 import { siteConfig } from "@/data/site";
 import { createPageMetadata } from "@/lib/metadata";
+import { FeedbackExample } from "@/components/FeedbackExample";
 import {
   CheckCircle2,
   ClipboardList,
@@ -17,9 +18,9 @@ import {
 } from "lucide-react";
 
 export const metadata = createPageMetadata({
-  title: "Routine Breakdowns",
+  title: "Routine Reviews",
   description:
-    "Get a personalized gymnastics routine breakdown from a coach and judge. Detailed video analysis covering start value, execution, composition, artistry, and deductions.",
+    "Get a personalized gymnastics routine review from a USAG judge. Detailed video analysis covering start value, execution, composition, artistry, and deductions.",
   path: "/routine-breakdowns",
 });
 
@@ -85,7 +86,7 @@ export default function RoutineBreakdownsPage() {
       <section className="bg-secondary/30 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <SectionHeading
-            eyebrow="Routine Breakdowns"
+            eyebrow="Routine Reviews"
             title="Your routine, through a judge's eyes"
             description={`Detailed video analysis from Braie — ${siteConfig.routineBreakdownPrice}. Reviews sent every Monday.`}
             className="mx-auto text-center"
@@ -115,6 +116,8 @@ export default function RoutineBreakdownsPage() {
           ))}
         </div>
       </section>
+
+      <FeedbackExample />
 
       <section className="bg-secondary/30 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">

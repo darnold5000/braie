@@ -1,10 +1,10 @@
 import type { Product, ProductCategory } from "@/types";
 
 export const productCategoryLabels: Record<ProductCategory, string> = {
-  "judging-critiques": "Judging Critiques",
-  "event-packages": "Event Packages",
-  guides: "Guides & PDFs",
-  "amazon-favorites": "Amazon Favorites",
+  "judging-critiques": "My Level Breakdowns",
+  "event-packages": "My Event Packages",
+  guides: "My PDF Library",
+  "amazon-favorites": "My Published Books",
 };
 
 export const products: Product[] = [
