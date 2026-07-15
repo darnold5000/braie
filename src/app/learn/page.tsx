@@ -111,7 +111,7 @@ export default function LearnPage() {
             </div>
             <Button asChild variant="outline" className="shrink-0 rounded-full">
               <a
-                href="https://www.youtube.com/@MarenCole"
+                href="https://www.youtube.com/@BraieSwann"
                 target="_blank"
                 rel="noopener noreferrer"
               >

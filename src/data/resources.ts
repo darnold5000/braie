@@ -52,7 +52,7 @@ export const resources: Resource[] = [
       "Follow the Score Note series on Instagram and YouTube for level-by-level breakdowns of common deductions and skills.",
     type: "free",
     ctaLabel: "Watch on YouTube",
-    href: "https://www.youtube.com/@MarenCole",
+    href: "https://www.youtube.com/@BraieSwann",
   },
   {
     id: "routine-worksheet",
@@ -82,6 +82,6 @@ export const resources: Resource[] = [
       "Step-by-step guidance on getting started, studying the code, and building confidence as a new judge.",
     type: "free",
     ctaLabel: "Watch Episode 1",
-    href: "/learn",
+    href: "https://www.youtube.com/watch?v=Dv92Wwg_NQ8",
   },
 ];

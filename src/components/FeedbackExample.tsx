@@ -7,8 +7,8 @@ import { SectionHeading } from "@/components/SectionHeading";
 const sampleVideo = {
   title: "Level 3 Bar Routine — Through a Judge's Eyes",
   description: "From the Score Notes series on YouTube",
-  embedSrc: "",
-  thumbnailUrl: "/images/maren-portrait.png",
+  embedSrc: "https://www.youtube-nocookie.com/embed/mMon79hVmS8",
+  thumbnailUrl: "https://img.youtube.com/vi/mMon79hVmS8/hqdefault.jpg",
 };
 
 const sampleFeedback = [

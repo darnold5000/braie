@@ -15,8 +15,8 @@ export const socialLinks: SocialLink[] = [
   },
   {
     platform: "YouTube",
-    label: "Maren Cole",
-    href: "https://www.youtube.com/@MarenCole",
+    label: "Score Notes",
+    href: "https://www.youtube.com/@BraieSwann",
     icon: "youtube",
   },
   {
