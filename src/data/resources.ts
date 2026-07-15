@@ -49,10 +49,10 @@ export const resources: Resource[] = [
     id: "level-tips",
     title: "Level-Specific Judging Tips",
     description:
-      "Follow the Braie-kdown series on Instagram and YouTube for level-by-level breakdowns of common deductions and skills.",
+      "Follow the Score Note series on Instagram and YouTube for level-by-level breakdowns of common deductions and skills.",
     type: "free",
     ctaLabel: "Watch on YouTube",
-    href: "https://www.youtube.com/@BraieSwann",
+    href: "https://www.youtube.com/@MarenCole",
   },
   {
     id: "routine-worksheet",
@@ -67,7 +67,7 @@ export const resources: Resource[] = [
     id: "i-can-i-will",
     title: "I Can, I Will",
     description:
-      "Braie's children's book on building confidence through sports — perfect for young gymnasts and their families.",
+      "Maren's children's book on building confidence through sports — perfect for young gymnasts and their families.",
     type: "paid",
     price: "See Amazon",
     ctaLabel: "View on Amazon",
@@ -82,6 +82,6 @@ export const resources: Resource[] = [
       "Step-by-step guidance on getting started, studying the code, and building confidence as a new judge.",
     type: "free",
     ctaLabel: "Watch Episode 1",
-    href: "https://www.youtube.com/watch?v=Dv92Wwg_NQ8",
+    href: "/learn",
   },
 ];

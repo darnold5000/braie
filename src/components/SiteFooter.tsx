@@ -66,7 +66,7 @@ export function SiteFooter() {
                   Book on Smeeple
                 </a>
               </li>
-              <li>Braie-kdowns: {siteConfig.routineBreakdownPrice}</li>
+              <li>Score Notes: {siteConfig.routineBreakdownPrice}</li>
             </ul>
           </div>
         </div>

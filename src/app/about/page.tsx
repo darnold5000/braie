@@ -11,7 +11,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "About",
   description:
-    "Meet Braie Speed Swann — former Elite and NCAA All-American gymnast, USAG judge, educator, and creator behind the Braie-kdown series.",
+    "Meet Maren Cole — former Elite and NCAA All-American gymnast, USAG judge, educator, and creator behind the Score Note series.",
   path: "/about",
 });
 
@@ -20,7 +20,7 @@ const highlights = [
     icon: Award,
     title: "Elite & NCAA All-American",
     description:
-      "Full-ride gymnast at the University of Arkansas. 2017 Regional Vault Champion and National Championships qualifier.",
+      "Full-ride gymnast at the a Division I program. 2017 Regional Vault Champion and National Championships qualifier.",
   },
   {
     icon: Scale,
@@ -49,7 +49,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
             <SectionHeading
-              eyebrow="About Braie"
+              eyebrow="About Maren"
               title={siteConfig.fullName}
               description={brandBio.short}
             />
@@ -57,7 +57,7 @@ export default function AboutPage() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={siteConfig.heroImage}
-                alt="Braie Speed Swann"
+                alt="Maren Cole"
                 className="h-full w-full object-contain"
               />
             </div>
@@ -92,12 +92,12 @@ export default function AboutPage() {
           <p className="mt-3 text-muted-foreground leading-relaxed">
             Helping athletes and parents understand scoring — breaking down routines,
             explaining deductions, and making judging concepts accessible through
-            the Braie-kdown series and personalized feedback.
+            the Score Note series and personalized feedback.
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Button asChild className="rounded-full">
               <Link href="/braie-kdowns">
-                Get a Braie-kdown
+                Get a Score Note
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -117,7 +117,7 @@ export default function AboutPage() {
         <CTASection
           title="Let's work together"
           description="Routine reviews, judging questions, or brand partnerships — I'd love to hear from you."
-          primaryLabel="Contact Braie"
+          primaryLabel="Contact Maren"
           primaryHref="/contact"
           secondaryLabel="View Services"
           secondaryHref="/services"

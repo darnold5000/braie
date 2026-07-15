@@ -14,9 +14,9 @@ export function OfferingIcons() {
   return (
     <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
       <SectionHeading
-        eyebrow="With Braie"
+        eyebrow="With Maren"
         title="Learn, watch, and get feedback"
-        description="Everything Braie offers — built around gymnastics education and her signature Braie-kdown style."
+        description="Everything Maren offers — built around gymnastics education and her signature Score Note style."
         className="mb-10"
       />
       <div className="grid gap-6 md:grid-cols-3">

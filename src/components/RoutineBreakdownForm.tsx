@@ -171,7 +171,7 @@ export function RoutineBreakdownForm() {
             Submitting...
           </>
         ) : (
-          "Submit Braie-kdown Request"
+          "Submit Score Note Request"
         )}
       </Button>
     </form>

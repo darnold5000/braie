@@ -1,6 +1,6 @@
 export const mainNavItems = [
   { href: "/", label: "Home" },
-  { href: "/braie-kdowns", label: "Braie-kdowns" },
+  { href: "/braie-kdowns", label: "Score Notes" },
   { href: "/learn", label: "Learn" },
   { href: "/brands", label: "Work with me" },
   { href: "/shop", label: "Shop" },
@@ -11,5 +11,5 @@ export const mainNavItems = [
 
 export const primaryCta = {
   href: "/braie-kdowns",
-  label: "Get a Braie-kdown",
+  label: "Get Score Notes",
 } as const;

@@ -15,8 +15,8 @@ export function TrustSection() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Credibility"
-          title="Why the gymnastics community trusts Braie"
-          description="Real credentials behind every breakdown, guide, and Braie-kdown."
+          title="Why the gymnastics community trusts Maren"
+          description="Real credentials behind every breakdown, guide, and Score Note."
           align="center"
           className="mx-auto mb-10"
         />

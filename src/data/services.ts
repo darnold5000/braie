@@ -8,7 +8,7 @@ const routineProcessSteps = [
   },
   {
     title: "Receive recorded feedback",
-    description: "Get a Braie-kdown-style analysis covering deductions and fixes.",
+    description: "Get a Score Note-style analysis covering deductions and fixes.",
   },
   {
     title: "Improve before your next meet",
@@ -21,7 +21,7 @@ export const services: Service[] = [
     id: "routine-breakdown",
     title: "Custom Routine Breakdown",
     description:
-      "Send your practice routine video and receive a detailed Braie-kdown-style analysis covering start value, execution, composition, artistry, and deductions to watch — recorded from a judge's perspective.",
+      "Send your practice routine video and receive a detailed Score Note-style analysis covering start value, execution, composition, artistry, and deductions to watch — recorded from a judge's perspective.",
     audience: "Athletes, parents, and coaches at any level",
     turnaround: "7–14 business days · Reviews sent Mondays",
     price: siteConfig.routineBreakdownPrice,
@@ -87,7 +87,7 @@ export const services: Service[] = [
     id: "brand-collab",
     title: "Brand Collaboration Inquiry",
     description:
-      "Partner with Braie for UGC content, social campaigns, and brand storytelling. 4+ years creating lifestyle, parenting, fitness, beauty, and sports content for major brands.",
+      "Partner with Maren for UGC content, social campaigns, and brand storytelling. 4+ years creating lifestyle, parenting, fitness, beauty, and sports content for major brands.",
     audience: "Brands and marketing teams",
     turnaround: "Response within 3–5 business days",
     ctaLabel: "Work with me",

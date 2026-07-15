@@ -15,7 +15,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/dyjf4/alleventslevel2.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-level-2-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": false
   },
@@ -25,7 +25,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/vg27w/alleventslevel3.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-level-3-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": true
   },
@@ -35,7 +35,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/9ntsp/alleventslevel4.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-level-4-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": false
   },
@@ -45,7 +45,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ny459/alleventslevel5.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-level-5-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": false
   },
@@ -55,7 +55,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/8t1y7/allbronzeevents.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-bronze-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": false
   },
@@ -65,7 +65,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/6uzxn/alldiamondevents.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-diamond-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": false
   },
@@ -75,7 +75,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/y1lnv/allgoldevents.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-gold-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": false
   },
@@ -85,7 +85,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/hxpmf/allplatinumevents.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-platinum-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": false
   },
@@ -95,7 +95,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "event-packages",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/lwohc/allsilverevents.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/all-xcel-silver-events-package",
+    "affiliateUrl": "/shop",
     "price": "$75",
     "featured": false
   },
@@ -105,7 +105,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/4f6gu/level2bars.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-2-bars-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -115,7 +115,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/5tapu/level2beam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-2-beam-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -125,7 +125,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/olb8a/level2floor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-2-floor-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -135,7 +135,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/afdzq/level2vault.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-2-vault-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -145,7 +145,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/nxjls/level3bars.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-3-bars-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": true
   },
@@ -155,7 +155,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/tsjdk/level3beam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-3-beam-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -165,7 +165,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/r4jvc/level3floor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-3-floor-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -175,7 +175,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/fcrps/level3vault.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-3-vault-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -185,7 +185,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/iqmhu/level45vault.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-4--5-vault-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -195,7 +195,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/9dfp3/level4bars.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-4-bars-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -205,7 +205,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/dsbt1/level4beam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-4-beam-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -215,7 +215,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/plbeu/level4floor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-4-floor-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -225,7 +225,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/5gltw/level5bars.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-5-bars-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -235,7 +235,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ndr82/level5beam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-5-beam-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -245,7 +245,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/3ou6q/level5floor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/level-5-floor-judging-critique-20212029",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -255,7 +255,7 @@ export const products: Product[] = [
     "description": "Helpful PDF guide for gymnasts, coaches, and parents.",
     "category": "guides",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/q6p1g/competecheatsheet.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/the-compete-cheat-sheet-pdf",
+    "affiliateUrl": "/shop",
     "price": "$5",
     "featured": true
   },
@@ -265,7 +265,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/18uxf/xcelbronzebarsstanthumbnail.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-bronze-bars-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -275,7 +275,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/sz7mk/bronzebeam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-bronze-beam-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -285,7 +285,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/wdgfz/bronzefloor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-bronze-floor-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -295,7 +295,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/45tr6/xcelbronzevaultthumbnail.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-bronze-vault-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -305,7 +305,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/goic4/diamondbars.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-diamond-bars-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -315,7 +315,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/dypnx/diamondbeam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-diamond-beam-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -325,7 +325,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/fpxwt/diamondfloor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-diamond-floor-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -335,7 +335,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/gse7t/diamondvault.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-diamond-vault-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -345,7 +345,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/381da/goldbars.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-gold-bars-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": true
   },
@@ -355,7 +355,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/8nt6i/goldbeam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-gold-beam-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -365,7 +365,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/y1gte/goldfloor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-gold-floor-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -375,7 +375,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/1buin/goldvault.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-gold-vault-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -385,7 +385,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/itb1w/platinumbars.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-platinum-bars-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -395,7 +395,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ovxtb/platinumbeam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-platinum-beam-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -405,7 +405,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/eok7m/platinumfloor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-platinum-floor-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -415,7 +415,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/43crq/platinumvault.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-platinum-vault-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -425,7 +425,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/6hjfa/xcelsilverbarsstanthumbnail.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-silver-bars-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -435,7 +435,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/9xdgm/silverbeam.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-silver-beam-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -445,7 +445,7 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/cixr7/silverfloor.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-silver-floor-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
@@ -455,14 +455,14 @@ export const products: Product[] = [
     "description": "PDF judging breakdown delivered to your inbox.",
     "category": "judging-critiques",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/5hxs1/xcelsilvervaultstanthumbnail.png",
-    "affiliateUrl": "https://stan.store/JudgeBraie/p/xcel-silver-vault-judging-critique-present2028",
+    "affiliateUrl": "/shop",
     "price": "$25",
     "featured": false
   },
   {
     "id": "competition-journal",
     "title": "My Gymnastics Competition Journal",
-    "description": "Meet logs, placing trackers, and goal-setting pages by Braie.",
+    "description": "Meet logs, placing trackers, and goal-setting pages by Maren.",
     "category": "amazon-favorites",
     "imageUrl": "https://m.media-amazon.com/images/P/B09JJGTPMT.01._SL500_.jpg",
     "affiliateUrl": "https://www.amazon.com/My-Gymnastics-Competition-Journal-gymnasts/dp/B09JJGTPMT",
@@ -482,7 +482,7 @@ export const products: Product[] = [
   {
     "id": "i-can-i-will",
     "title": "I Can, I Will \u2014 Children's Confidence Book",
-    "description": "Braie's children's book on confidence in sports.",
+    "description": "Maren's children's book on confidence in sports.",
     "category": "amazon-favorites",
     "imageUrl": "https://m.media-amazon.com/images/P/B09GZ98YC1.01._SL500_.jpg",
     "affiliateUrl": "https://www.amazon.com/can-will-Childrens-Confidence-Sports/dp/B09GZ98YC1",
@@ -492,7 +492,7 @@ export const products: Product[] = [
   {
     "id": "revo-sculptor",
     "title": "Revo Sculptor",
-    "description": "Body sculpting device — one of Braie's affiliate favorites.",
+    "description": "Body sculpting device — one of Maren's affiliate favorites.",
     "category": "affiliate-favorites",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ws1gp/product1781808924185.jpeg",
     "affiliateUrl": "https://lvnta.com/lv_sreDf4VZYWqq4FSS58",
@@ -501,7 +501,7 @@ export const products: Product[] = [
   {
     "id": "revo-oil",
     "title": "Revo Oil",
-    "description": "Wellness oil from Revo — visit Braie's affiliate link.",
+    "description": "Wellness oil from Revo — visit Maren's affiliate link.",
     "category": "affiliate-favorites",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/i2jxd/product1781809064794.jpeg",
     "affiliateUrl": "https://lvnta.com/lv_LBARAJXuXd5U3VgcyV",
@@ -510,7 +510,7 @@ export const products: Product[] = [
   {
     "id": "revo-cupping",
     "title": "Revo Cupping",
-    "description": "REVO 4-in-1 Smart Cupping — visit Braie's affiliate link.",
+    "description": "REVO 4-in-1 Smart Cupping — visit Maren's affiliate link.",
     "category": "affiliate-favorites",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/p56hb/product1781809125150.jpeg",
     "affiliateUrl": "https://lvnta.com/lv_IhNaKhdbqirhabl9DL",
@@ -519,7 +519,7 @@ export const products: Product[] = [
   {
     "id": "revo-face-wand",
     "title": "Revo Face Wand",
-    "description": "Skincare face wand from Revo — visit Braie's affiliate link.",
+    "description": "Skincare face wand from Revo — visit Maren's affiliate link.",
     "category": "affiliate-favorites",
     "imageUrl": "https://assets.stanwith.me/live/msc/28555275/ua4b1/product1781809321082.jpeg",
     "affiliateUrl": "https://lvnta.com/lv_pDT5ZXstHNpN28M0kK",

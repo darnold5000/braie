@@ -9,7 +9,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Latest Videos",
   description:
-    "Watch Braie-kdowns, judging explainers, and gymnastics education on Instagram, TikTok, and YouTube.",
+    "Watch Score Notes, judging explainers, and gymnastics education on Instagram, TikTok, and YouTube.",
   path: "/videos",
 });
 
@@ -20,8 +20,8 @@ export default function VideosPage() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <SectionHeading
             eyebrow="Videos"
-            title="Latest from Braie"
-            description="The Braie-kdown series — showing the gymnastics community how judges see routines, deductions, and scoring."
+            title="Latest from Maren"
+            description="The Score Note series — showing the gymnastics community how judges see routines, deductions, and scoring."
             className="mx-auto max-w-2xl text-center"
             align="center"
           />
@@ -39,7 +39,7 @@ export default function VideosPage() {
         <CTASection
           title="Want feedback on your own routine?"
           description="Get a personalized video breakdown from a judge's perspective."
-          primaryLabel="Get a Braie-kdown"
+          primaryLabel="Get a Score Note"
           primaryHref="/braie-kdowns"
           secondaryLabel="Explore Learn"
           secondaryHref="/learn"

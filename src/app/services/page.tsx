@@ -7,7 +7,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Services",
   description:
-    "Routine breakdowns, judge Q&A sessions, meet prep reviews, choreography feedback, and brand collaborations with Braie Speed Swann.",
+    "Routine breakdowns, judge Q&A sessions, meet prep reviews, choreography feedback, and brand collaborations with Maren Cole.",
   path: "/services",
 });
 
@@ -17,7 +17,7 @@ export default function ServicesPage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <SectionHeading
           eyebrow="Services"
-          title="Work With Braie"
+          title="Work With Maren"
           description="Routine reviews are the main offering. Q&A sessions, meet prep, and brand collaborations are also available."
           className="mb-12"
         />
@@ -32,7 +32,7 @@ export default function ServicesPage() {
         <CTASection
           title="Not sure which service fits?"
           description="Send a message and I'll point you in the right direction."
-          primaryLabel="Contact Braie"
+          primaryLabel="Contact Maren"
           primaryHref="/contact"
           secondaryLabel="Routine Breakdowns"
           secondaryHref="/braie-kdowns"

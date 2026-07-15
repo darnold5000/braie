@@ -33,7 +33,7 @@ export function getPortfolioPhotos(): PortfolioPhoto[] {
   return listFiles(IMAGE_DIR, /\.(jpe?g|png|webp)$/i).map((file) => ({
     id: file.replace(/\.[^.]+$/, ""),
     src: `/portfolio/images/${file}`,
-    alt: "Braie Speed Swann UGC content",
+    alt: "Maren Cole UGC content",
   }));
 }
 

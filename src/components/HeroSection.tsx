@@ -18,7 +18,7 @@ export function HeroSection() {
             Helping the gymnastics community learn, improve, and connect.
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground sm:text-xl">
-            I&apos;m Braie—a former NCAA All-American gymnast, gymnastics judge, and
+            I&apos;m Maren—a former NCAA All-American gymnast, gymnastics judge, and
             creator. Through educational content, routine reviews, product
             recommendations, and brand partnerships, I share trusted insights that
             help athletes, parents, coaches, and the companies that serve them.
@@ -31,7 +31,7 @@ export function HeroSection() {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full">
-              <Link href="/braie-kdowns">Get a Braie-kdown</Link>
+              <Link href="/braie-kdowns">Get a Score Note</Link>
             </Button>
           </div>
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -55,7 +55,7 @@ export function HeroSection() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={siteConfig.heroImage}
-              alt="Braie Speed Swann"
+              alt="Maren Cole"
               className="h-full w-full object-contain"
             />
           </div>

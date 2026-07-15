@@ -9,7 +9,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Learn",
   description:
-    "Learn gymnastics judging with Braie Speed Swann — free guides, downloads, judging tips, parent resources, and published books.",
+    "Learn gymnastics judging with Maren Cole — free guides, downloads, judging tips, parent resources, and published books.",
   path: "/learn",
 });
 
@@ -22,12 +22,12 @@ const learnSections = [
   {
     icon: GraduationCap,
     title: "Judging tips & education",
-    description: "Level-by-level breakdowns and deduction explainers from Braie's Braie-kdown series.",
+    description: "Level-by-level breakdowns and deduction explainers from Maren's Score Note series.",
   },
   {
     icon: BookOpen,
     title: "Books & journals",
-    description: "Published workbooks and Braie's children's book on confidence in sports.",
+    description: "Published workbooks and Maren's children's book on confidence in sports.",
   },
 ];
 
@@ -46,9 +46,9 @@ export default function LearnPage() {
       <section className="bg-secondary/30 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <SectionHeading
-            eyebrow="Learn with Braie"
+            eyebrow="Learn with Maren"
             title="Gymnastics education, explained"
-            description="Braie's educational hub — free resources, judging tips, downloads, and books to help the gymnastics community understand scoring."
+            description="Maren's educational hub — free resources, judging tips, downloads, and books to help the gymnastics community understand scoring."
             className="mx-auto max-w-3xl text-center"
             align="center"
           />
@@ -86,8 +86,8 @@ export default function LearnPage() {
           <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeading
               eyebrow="Judging tips"
-              title="Watch & learn with Braie"
-              description="The Braie-kdown series on YouTube, Instagram, and TikTok — level breakdowns, deductions, and judging education."
+              title="Watch & learn with Maren"
+              description="The Score Note series on YouTube, Instagram, and TikTok — level breakdowns, deductions, and judging education."
             />
             <Button asChild variant="outline" className="shrink-0 rounded-full">
               <Link href="/videos">
@@ -106,12 +106,12 @@ export default function LearnPage() {
             <div className="flex-1">
               <p className="font-medium text-foreground">How to Become a Gymnastics Judge</p>
               <p className="text-sm text-muted-foreground">
-                Braie&apos;s multi-episode YouTube series — where to start, how to study, and judging tips.
+                Maren&apos;s multi-episode YouTube series — where to start, how to study, and judging tips.
               </p>
             </div>
             <Button asChild variant="outline" className="shrink-0 rounded-full">
               <a
-                href="https://www.youtube.com/@BraieSwann"
+                href="https://www.youtube.com/@MarenCole"
                 target="_blank"
                 rel="noopener noreferrer"
               >

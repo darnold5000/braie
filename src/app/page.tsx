@@ -19,7 +19,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Former NCAA All-American · Judge · Creator",
   description:
-    "Braie Speed Swann helps the gymnastics community learn, improve, and connect — through educational content, Braie-kdowns, product recommendations, and brand partnerships.",
+    "Maren Cole helps the gymnastics community learn, improve, and connect — through educational content, Score Notes, product recommendations, and brand partnerships.",
   path: "/",
 });
 
@@ -35,9 +35,9 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <SectionHeading
-            eyebrow="Meet Braie"
+            eyebrow="Meet Maren"
             title="Trusted insights for the whole gymnastics community"
-            description="From free education and Braie-kdowns to product picks and brand partnerships — everything Braie shares is built to help people learn, improve, and connect."
+            description="From free education and Score Notes to product picks and brand partnerships — everything Maren shares is built to help people learn, improve, and connect."
           />
           <div className="space-y-4">
             <p className="leading-relaxed text-muted-foreground">
@@ -61,7 +61,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Learn"
               title="Free guides & judging tips"
-              description="Downloads, worksheets, and education from Braie's library — the same ideas behind her videos."
+              description="Downloads, worksheets, and education from Maren's library — the same ideas behind her videos."
             />
             <Button asChild variant="ghost" className="shrink-0 rounded-full">
               <Link href="/learn">Explore Learn</Link>
@@ -80,7 +80,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Videos"
             title="Don't take my word for it — watch"
-            description="Braie-kdowns, deduction explainers, and judging education on Instagram, TikTok, and YouTube."
+            description="Score Notes, deduction explainers, and judging education on Instagram, TikTok, and YouTube."
           />
           <Button asChild variant="ghost" className="shrink-0 rounded-full">
             <Link href="/videos">All videos</Link>
@@ -94,7 +94,7 @@ export default function HomePage() {
           <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <SectionHeading
               eyebrow="Shop"
-              title="Braie's favorites"
+              title="Maren's favorites"
               description="Meet essentials, equipment picks, level breakdowns, and affiliate favorites."
             />
             <Button asChild variant="ghost" className="shrink-0 rounded-full">
@@ -114,7 +114,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Newsletter"
             title="Judging tips in your inbox"
-            description="New Braie-kdowns, learn page drops, and openings for personalized feedback."
+            description="New Score Notes, learn page drops, and openings for personalized feedback."
             className="mb-6"
           />
           <NewsletterSignup />
@@ -123,9 +123,9 @@ export default function HomePage() {
 
       <div className="pb-16">
         <CTASection
-          title="Ready for your own Braie-kdown?"
+          title="Ready for your own Score Note?"
           description={`Send in a practice video and get detailed judge-level analysis. ${siteConfig.routineBreakdownPrice}.`}
-          primaryLabel="Get a Braie-kdown"
+          primaryLabel="Get a Score Note"
           primaryHref="/braie-kdowns"
           secondaryLabel="Watch Videos"
           secondaryHref="/videos"

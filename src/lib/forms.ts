@@ -18,7 +18,7 @@ async function sendNotificationEmail({ subject, html }: EmailPayload) {
 
   const resend = new Resend(apiKey);
   await resend.emails.send({
-    from: process.env.RESEND_FROM_EMAIL ?? "Braie Website <onboarding@resend.dev>",
+    from: process.env.RESEND_FROM_EMAIL ?? "Maren Website <onboarding@resend.dev>",
     to,
     subject,
     html,

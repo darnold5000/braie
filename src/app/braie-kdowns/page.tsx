@@ -18,9 +18,9 @@ import {
 } from "lucide-react";
 
 export const metadata = createPageMetadata({
-  title: "Braie-kdowns",
+  title: "Score Notes",
   description:
-    "Get a personalized Braie-kdown from USAG judge Braie Speed Swann. Detailed video analysis covering start value, execution, composition, artistry, and deductions.",
+    "Get a personalized Score Note from USAG judge Maren Cole. Detailed video analysis covering start value, execution, composition, artistry, and deductions.",
   path: "/braie-kdowns",
 });
 
@@ -55,7 +55,7 @@ const steps = [
   },
   {
     icon: Video,
-    title: "Get your Braie-kdown",
+    title: "Get your Score Note",
     description: "Recorded analysis from a coach and judge's perspective.",
   },
   {
@@ -80,14 +80,14 @@ const faqs = [
   },
 ];
 
-export default function BraieKdownsPage() {
+export default function ScoreNotesPage() {
   return (
     <>
       <section className="bg-secondary/30 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <SectionHeading
-            eyebrow="Braie-kdowns"
-            title="Your routine, through Braie's eyes"
+            eyebrow="Score Notes"
+            title="Your routine, through Maren's eyes"
             description={`Personalized video analysis from a judge and former NCAA All-American. Reviews sent every Monday.`}
             className="mx-auto text-center"
             align="center"
@@ -97,9 +97,9 @@ export default function BraieKdownsPage() {
 
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <SectionHeading
-          eyebrow="Why Braie-kdowns"
+          eyebrow="Why Score Notes"
           title="Judge-level feedback you can actually use"
-          description="This isn't a generic comment — it's the same lens Braie uses in her educational content, applied to your athlete's routine."
+          description="This isn't a generic comment — it's the same lens Maren uses in her educational content, applied to your athlete's routine."
           className="mb-8"
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

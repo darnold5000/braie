@@ -28,7 +28,7 @@ export default function ShopClient() {
         <SectionHeading
           eyebrow="Shop"
           title="My favorites"
-          description="Level breakdowns, meet essentials, equipment picks, affiliate favorites, and published books — curated by Braie."
+          description="Level breakdowns, meet essentials, equipment picks, affiliate favorites, and published books — curated by Maren."
           className="mb-8"
         />
 
@@ -56,16 +56,7 @@ export default function ShopClient() {
       </div>
 
       <p className="mt-10 text-center text-sm text-muted-foreground">
-        Digital products open on{" "}
-        <a
-          href="https://stan.store/JudgeBraie"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-primary underline-offset-2 hover:underline"
-        >
-          stan.store/JudgeBraie
-        </a>
-        . Amazon links may earn a commission at no extra cost to you.
+        Browse digital products above. Amazon links may earn a commission at no extra cost to you.
       </p>
     </section>
   );

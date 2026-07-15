@@ -1,6 +1,6 @@
-# Braie — Creator Pro Website
+# Maren — Creator Pro Website
 
-A polished creator/business website for **Braie Speed Swann** — gymnastics judge, coach, content creator, and routine breakdown specialist.
+A polished creator/business website for **Maren Cole** — gymnastics judge, coach, content creator, and routine breakdown specialist.
 
 Built with Next.js App Router, TypeScript, Tailwind CSS, shadcn/ui, and optional Supabase + Resend integrations.
 
@@ -72,4 +72,4 @@ Structure is ready for a future `/admin` dashboard to manage requests, products,
 
 ## License
 
-Private — Braie Media Content LLC
+Private — Maren Media Content LLC

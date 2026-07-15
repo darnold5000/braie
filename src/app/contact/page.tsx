@@ -9,7 +9,7 @@ import type { InquiryType } from "@/types";
 export const metadata = createPageMetadata({
   title: "Contact",
   description:
-    "Contact Braie for routine breakdowns, judging questions, brand partnerships, and general inquiries.",
+    "Contact Maren for routine breakdowns, judging questions, brand partnerships, and general inquiries.",
   path: "/contact",
 });
 

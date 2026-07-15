@@ -17,7 +17,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 
 const inquiryOptions: { value: InquiryType; label: string }[] = [
-  { value: "routine-breakdown", label: "Braie-kdown request" },
+  { value: "routine-breakdown", label: "Score Note request" },
   { value: "judging-question", label: "Judging question" },
   { value: "brand-partnership", label: "Brand partnership" },
   { value: "general", label: "General inquiry" },

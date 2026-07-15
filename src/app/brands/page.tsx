@@ -13,7 +13,7 @@ import {
   ugcDeliverables,
   ugcFocusAreas,
   ugcProcessSteps,
-  ugcWhyBraie,
+  ugcWhyMaren,
 } from "@/data/ugc";
 import { socialLinks } from "@/data/socialLinks";
 import { createPageMetadata } from "@/lib/metadata";
@@ -21,7 +21,7 @@ import { createPageMetadata } from "@/lib/metadata";
 export const metadata = createPageMetadata({
   title: "Work with Me — UGC & Brand Partnerships",
   description:
-    "Partner with Braie Speed Swann for UGC videos, photos, and social content. 4+ years creating lifestyle, beauty, fitness, wellness, and sports content for brands.",
+    "Partner with Maren Cole for UGC videos, photos, and social content. 4+ years creating lifestyle, beauty, fitness, wellness, and sports content for brands.",
   path: "/brands",
 });
 
@@ -60,7 +60,7 @@ export default function BrandsPage() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={ugcConfig.heroImage}
-              alt="Braie Speed Swann — UGC creator"
+              alt="Maren Cole — UGC creator"
               className="h-full w-full object-contain"
             />
           </div>
@@ -71,7 +71,7 @@ export default function BrandsPage() {
         <SectionHeading
           eyebrow="Focus Areas"
           title="Content that fits your category"
-          description="Braie creates UGC across verticals where authenticity and performance matter."
+          description="Maren creates UGC across verticals where authenticity and performance matter."
           className="mb-8"
         />
         <div className="flex flex-wrap gap-3">
@@ -128,12 +128,12 @@ export default function BrandsPage() {
       <section className="bg-secondary/30 py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <SectionHeading
-            eyebrow="Why Braie"
+            eyebrow="Why Maren"
             title="Creator + strategist, not just talent"
             className="mb-10"
           />
           <div className="grid gap-5 sm:grid-cols-2">
-            {ugcWhyBraie.map((item) => (
+            {ugcWhyMaren.map((item) => (
               <div
                 key={item.title}
                 className="rounded-2xl border border-border/70 bg-card p-6 shadow-sm"
@@ -171,7 +171,7 @@ export default function BrandsPage() {
 
       <div className="pb-16">
         <CTASection
-          title="Ready to create with Braie?"
+          title="Ready to create with Maren?"
           description={`${ugcConfig.yearsExperience} years of UGC experience. Let's talk about your next campaign.`}
           primaryLabel="Inquire About a Collaboration"
           primaryHref="/contact?type=brand-partnership"

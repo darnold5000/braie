@@ -6,9 +6,9 @@ import { SectionHeading } from "@/components/SectionHeading";
 
 const sampleVideo = {
   title: "Level 3 Bar Routine — Through a Judge's Eyes",
-  description: "From the Braie-kdown series on YouTube",
-  embedSrc: "https://www.youtube-nocookie.com/embed/mMon79hVmS8",
-  thumbnailUrl: "https://img.youtube.com/vi/mMon79hVmS8/hqdefault.jpg",
+  description: "From the Score Notes series on YouTube",
+  embedSrc: "",
+  thumbnailUrl: "/images/maren-portrait.png",
 };
 
 const sampleFeedback = [
@@ -40,14 +40,14 @@ export function FeedbackExample() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SectionHeading
           eyebrow="Example"
-          title="See what a Braie-kdown looks like"
+          title="See what a Score Note looks like"
           description="Real feedback format — timestamped deductions with coach and judge tips you can act on."
           className="mb-10"
         />
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="overflow-hidden rounded-2xl border border-border/70 bg-card shadow-sm">
             <div className="relative aspect-video bg-secondary">
-              {playing ? (
+              {playing && sampleVideo.embedSrc ? (
                 <iframe
                   src={`${sampleVideo.embedSrc}?rel=0`}
                   title={sampleVideo.title}
@@ -58,21 +58,23 @@ export function FeedbackExample() {
               ) : (
                 <button
                   type="button"
-                  onClick={() => setPlaying(true)}
+                  onClick={() => sampleVideo.embedSrc && setPlaying(true)}
                   className="group relative flex h-full w-full items-center justify-center"
-                  aria-label={`Play ${sampleVideo.title}`}
+                  aria-label={sampleVideo.embedSrc ? `Play ${sampleVideo.title}` : sampleVideo.title}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={sampleVideo.thumbnailUrl}
                     alt={sampleVideo.title}
-                    className="max-h-full max-w-full object-contain"
+                    className="h-full w-full object-cover"
                   />
-                  <span className="absolute inset-0 flex items-center justify-center bg-foreground/20 transition-colors group-hover:bg-foreground/30">
-                    <span className="flex h-14 w-14 items-center justify-center rounded-full bg-background/95 text-primary shadow-lg">
-                      <Play className="ml-1 h-6 w-6 fill-current" />
+                  {sampleVideo.embedSrc ? (
+                    <span className="absolute inset-0 flex items-center justify-center bg-foreground/20 transition-colors group-hover:bg-foreground/30">
+                      <span className="flex h-14 w-14 items-center justify-center rounded-full bg-background/95 text-primary shadow-lg">
+                        <Play className="ml-1 h-6 w-6 fill-current" />
+                      </span>
                     </span>
-                  </span>
+                  ) : null}
                 </button>
               )}
             </div>

@@ -2,9 +2,9 @@ export const ugcConfig = {
   title: "UGC Creator & Social Media Specialist",
   headline: "Authentic content that converts for your brand",
   description:
-    "Braie helps companies create videos and photos for their platforms — combining 4+ years of UGC experience with a former NCAA athlete's credibility in fitness, lifestyle, and sports.",
+    "Maren helps companies create videos and photos for their platforms — combining 4+ years of UGC experience with a former NCAA athlete's credibility in fitness, lifestyle, and sports.",
   yearsExperience: "4+",
-  heroImage: "/images/braie-brands.png",
+  heroImage: "/images/maren-brands.png",
 };
 
 export const ugcFocusAreas = [
@@ -42,7 +42,7 @@ export const ugcProcessSteps = [
   {
     title: "Create & deliver",
     description:
-      "Braie produces platform-ready video and photo content with full usage rights.",
+      "Maren produces platform-ready video and photo content with full usage rights.",
   },
   {
     title: "Launch with confidence",
@@ -51,7 +51,7 @@ export const ugcProcessSteps = [
   },
 ];
 
-export const ugcWhyBraie = [
+export const ugcWhyMaren = [
   {
     title: "Athlete credibility",
     description:
