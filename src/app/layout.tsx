@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     type: "website",
   },
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({

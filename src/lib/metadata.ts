@@ -29,5 +29,6 @@ export function createPageMetadata({
       title: `${title} | ${siteConfig.name}`,
       description,
     },
+    robots: { index: false, follow: false },
   };
 }
